@@ -1,0 +1,731 @@
+
+=== Processing patient: DE-IDENTIFIED_5079615.brainlab ===
+dcm2niix success for data/2021/DE-IDENTIFIED, 5079615.brainlab/T1
+dcm2niix success for data/2021/DE-IDENTIFIED, 5079615.brainlab/DWI
+dcm2niix success for data/2021/DE-IDENTIFIED, 5079615.brainlab/ADC
+dcm2niix success for data/2021/DE-IDENTIFIED, 5079615.brainlab/FLAIR
+dcm2niix success for data/2021/DE-IDENTIFIED, 5079615.brainlab/T2
+Standardized: DWI_20210101000000_5.nii.gz -> DWI_20210101000000_5.nii_in_T1.nii.gz
+Standardized: FLAIR_20210101000000_6b.nii.gz -> FLAIR_20210101000000_6b.nii_in_T1.nii.gz
+Standardized: FLAIR_20210101000000_6.nii.gz -> FLAIR_20210101000000_6.nii_in_T1.nii.gz
+Standardized: DWI_20210101000000_5a.nii.gz -> DWI_20210101000000_5a.nii_in_T1.nii.gz
+Standardized: ADC_20210101000000_4a.nii.gz -> ADC_20210101000000_4a.nii_in_T1.nii.gz
+Standardized: T2_20210101000000_7a.nii.gz -> T2_20210101000000_7a.nii_in_T1.nii.gz
+Standardized: T1_20210101000000_16b.nii.gz -> T1_20210101000000_16b.nii_in_T1.nii.gz
+Standardized: DWI_20210101000000_5b.nii.gz -> DWI_20210101000000_5b.nii_in_T1.nii.gz
+Standardized: ADC_20210101000000_4b.nii.gz -> ADC_20210101000000_4b.nii_in_T1.nii.gz
+Standardized: T2_20210101000000_7.nii.gz -> T2_20210101000000_7.nii_in_T1.nii.gz
+Standardized: T2_20210101000000_7b.nii.gz -> T2_20210101000000_7b.nii_in_T1.nii.gz
+Standardized: FLAIR_20210101000000_6a.nii.gz -> FLAIR_20210101000000_6a.nii_in_T1.nii.gz
+Standardized: T1_20210101000000_16.nii.gz -> T1_20210101000000_16.nii_in_T1.nii.gz
+Standardized: T1_20210101000000_16a.nii.gz -> T1_20210101000000_16a.nii_in_T1.nii.gz
+Standardized: ADC_20210101000000_4.nii.gz -> ADC_20210101000000_4.nii_in_T1.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5079615.brainlab/correctedn4/CORRECTT2_DE-IDENTIFIED_5079615.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5079615.brainlab/correctedn4/CORRECTDWI_DE-IDENTIFIED_5079615.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5079615.brainlab/correctedn4/CORRECTT2_DE-IDENTIFIED_5079615.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5079615.brainlab/correctedn4/CORRECTFLAIR_DE-IDENTIFIED_5079615.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5079615.brainlab/correctedn4/CORRECTADC_DE-IDENTIFIED_5079615.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5079615.brainlab/correctedn4/CORRECTDWI_DE-IDENTIFIED_5079615.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5079615.brainlab/correctedn4/CORRECTT1_DE-IDENTIFIED_5079615.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5079615.brainlab/correctedn4/CORRECTADC_DE-IDENTIFIED_5079615.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5079615.brainlab/correctedn4/CORRECTT1_DE-IDENTIFIED_5079615.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5079615.brainlab/correctedn4/CORRECTFLAIR_DE-IDENTIFIED_5079615.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5079615.brainlab/correctedn4/CORRECTT2_DE-IDENTIFIED_5079615.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5079615.brainlab/correctedn4/CORRECTT1_DE-IDENTIFIED_5079615.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5079615.brainlab/correctedn4/CORRECTFLAIR_DE-IDENTIFIED_5079615.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5079615.brainlab/correctedn4/CORRECTADC_DE-IDENTIFIED_5079615.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5079615.brainlab/correctedn4/CORRECTDWI_DE-IDENTIFIED_5079615.brainlab.nii.gz
+  Mask already exists for DE-IDENTIFIED_5079615.brainlab, skipping mask generation.
+Co-localization DE-IDENTIFIED_5079615.brainlab: T1 vs T2 | Pearson: 0.1684, Dice: 0.6730, Jaccard: 0.5071
+Co-localization DE-IDENTIFIED_5079615.brainlab: T1 vs DWI | Pearson: -0.1907, Dice: 0.3040, Jaccard: 0.1793
+Co-localization DE-IDENTIFIED_5079615.brainlab: T1 vs FLAIR | Pearson: 0.4388, Dice: 0.7892, Jaccard: 0.6519
+Co-localization DE-IDENTIFIED_5079615.brainlab: T1 vs ADC | Pearson: -0.1993, Dice: 0.3229, Jaccard: 0.1925
+
+=== Processing patient: DE-IDENTIFIED_5097695.brainlab ===
+dcm2niix success for data/2021/DE-IDENTIFIED, 5097695.brainlab/T1
+dcm2niix success for data/2021/DE-IDENTIFIED, 5097695.brainlab/DWI
+dcm2niix success for data/2021/DE-IDENTIFIED, 5097695.brainlab/ADC
+dcm2niix success for data/2021/DE-IDENTIFIED, 5097695.brainlab/FLAIR
+dcm2niix success for data/2021/DE-IDENTIFIED, 5097695.brainlab/T2
+Standardized: FLAIR_20210101000000_9a.nii.gz -> FLAIR_20210101000000_9a.nii_in_T1.nii.gz
+Standardized: T2_20210101000000_8b.nii.gz -> T2_20210101000000_8b.nii_in_T1.nii.gz
+Standardized: T2_20210101000000_8.nii.gz -> T2_20210101000000_8.nii_in_T1.nii.gz
+Standardized: ADC_20210101000000_7.nii.gz -> ADC_20210101000000_7.nii_in_T1.nii.gz
+Standardized: ADC_20210101000000_7a.nii.gz -> ADC_20210101000000_7a.nii_in_T1.nii.gz
+Standardized: T1_20210101000000_10a.nii.gz -> T1_20210101000000_10a.nii_in_T1.nii.gz
+Standardized: DWI_20210101000000_6a.nii.gz -> DWI_20210101000000_6a.nii_in_T1.nii.gz
+Standardized: T2_20210101000000_8a.nii.gz -> T2_20210101000000_8a.nii_in_T1.nii.gz
+Standardized: T1_20210101000000_10.nii.gz -> T1_20210101000000_10.nii_in_T1.nii.gz
+Standardized: FLAIR_20210101000000_9.nii.gz -> FLAIR_20210101000000_9.nii_in_T1.nii.gz
+Standardized: DWI_20210101000000_6.nii.gz -> DWI_20210101000000_6.nii_in_T1.nii.gz
+Standardized: FLAIR_20210101000000_9b.nii.gz -> FLAIR_20210101000000_9b.nii_in_T1.nii.gz
+Standardized: ADC_20210101000000_7b.nii.gz -> ADC_20210101000000_7b.nii_in_T1.nii.gz
+Standardized: T1_20210101000000_10b.nii.gz -> T1_20210101000000_10b.nii_in_T1.nii.gz
+Standardized: DWI_20210101000000_6b.nii.gz -> DWI_20210101000000_6b.nii_in_T1.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5097695.brainlab/correctedn4/CORRECTT2_DE-IDENTIFIED_5097695.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5097695.brainlab/correctedn4/CORRECTT1_DE-IDENTIFIED_5097695.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5097695.brainlab/correctedn4/CORRECTT1_DE-IDENTIFIED_5097695.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5097695.brainlab/correctedn4/CORRECTT2_DE-IDENTIFIED_5097695.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5097695.brainlab/correctedn4/CORRECTADC_DE-IDENTIFIED_5097695.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5097695.brainlab/correctedn4/CORRECTDWI_DE-IDENTIFIED_5097695.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5097695.brainlab/correctedn4/CORRECTFLAIR_DE-IDENTIFIED_5097695.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5097695.brainlab/correctedn4/CORRECTADC_DE-IDENTIFIED_5097695.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5097695.brainlab/correctedn4/CORRECTDWI_DE-IDENTIFIED_5097695.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5097695.brainlab/correctedn4/CORRECTT2_DE-IDENTIFIED_5097695.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5097695.brainlab/correctedn4/CORRECTFLAIR_DE-IDENTIFIED_5097695.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5097695.brainlab/correctedn4/CORRECTADC_DE-IDENTIFIED_5097695.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5097695.brainlab/correctedn4/CORRECTFLAIR_DE-IDENTIFIED_5097695.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5097695.brainlab/correctedn4/CORRECTDWI_DE-IDENTIFIED_5097695.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5097695.brainlab/correctedn4/CORRECTT1_DE-IDENTIFIED_5097695.brainlab.nii.gz
+  Mask already exists for DE-IDENTIFIED_5097695.brainlab, skipping mask generation.
+Co-localization DE-IDENTIFIED_5097695.brainlab: T1 vs T2 | Pearson: 0.4973, Dice: 0.8547, Jaccard: 0.7463
+Co-localization DE-IDENTIFIED_5097695.brainlab: T1 vs ADC | Pearson: -0.3392, Dice: 0.2164, Jaccard: 0.1213
+Co-localization DE-IDENTIFIED_5097695.brainlab: T1 vs DWI | Pearson: 0.5396, Dice: 0.7194, Jaccard: 0.5617
+Co-localization DE-IDENTIFIED_5097695.brainlab: T1 vs FLAIR | Pearson: 0.9277, Dice: 0.9097, Jaccard: 0.8344
+
+=== Processing patient: DE-IDENTIFIED_5320542.brainlab ===
+dcm2niix success for data/2021/DE-IDENTIFIED, 5320542.brainlab/T1
+dcm2niix success for data/2021/DE-IDENTIFIED, 5320542.brainlab/DWI
+dcm2niix success for data/2021/DE-IDENTIFIED, 5320542.brainlab/ADC
+dcm2niix success for data/2021/DE-IDENTIFIED, 5320542.brainlab/FLAIR
+dcm2niix success for data/2021/DE-IDENTIFIED, 5320542.brainlab/T2
+Standardized: FLAIR_20210101000000_9a.nii.gz -> FLAIR_20210101000000_9a.nii_in_T1.nii.gz
+Standardized: T2_20210101000000_8b.nii.gz -> T2_20210101000000_8b.nii_in_T1.nii.gz
+Standardized: T2_20210101000000_8.nii.gz -> T2_20210101000000_8.nii_in_T1.nii.gz
+Standardized: ADC_20210101000000_7.nii.gz -> ADC_20210101000000_7.nii_in_T1.nii.gz
+Standardized: ADC_20210101000000_7a.nii.gz -> ADC_20210101000000_7a.nii_in_T1.nii.gz
+Standardized: T1_20210101000000_10a.nii.gz -> T1_20210101000000_10a.nii_in_T1.nii.gz
+Standardized: DWI_20210101000000_6a.nii.gz -> DWI_20210101000000_6a.nii_in_T1.nii.gz
+Standardized: T2_20210101000000_8a.nii.gz -> T2_20210101000000_8a.nii_in_T1.nii.gz
+Standardized: T1_20210101000000_10.nii.gz -> T1_20210101000000_10.nii_in_T1.nii.gz
+Standardized: FLAIR_20210101000000_9.nii.gz -> FLAIR_20210101000000_9.nii_in_T1.nii.gz
+Standardized: DWI_20210101000000_6.nii.gz -> DWI_20210101000000_6.nii_in_T1.nii.gz
+Standardized: FLAIR_20210101000000_9b.nii.gz -> FLAIR_20210101000000_9b.nii_in_T1.nii.gz
+Standardized: ADC_20210101000000_7b.nii.gz -> ADC_20210101000000_7b.nii_in_T1.nii.gz
+Standardized: T1_20210101000000_10b.nii.gz -> T1_20210101000000_10b.nii_in_T1.nii.gz
+Standardized: DWI_20210101000000_6b.nii.gz -> DWI_20210101000000_6b.nii_in_T1.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5320542.brainlab/correctedn4/CORRECTT2_DE-IDENTIFIED_5320542.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5320542.brainlab/correctedn4/CORRECTT1_DE-IDENTIFIED_5320542.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5320542.brainlab/correctedn4/CORRECTT1_DE-IDENTIFIED_5320542.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5320542.brainlab/correctedn4/CORRECTT2_DE-IDENTIFIED_5320542.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5320542.brainlab/correctedn4/CORRECTADC_DE-IDENTIFIED_5320542.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5320542.brainlab/correctedn4/CORRECTDWI_DE-IDENTIFIED_5320542.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5320542.brainlab/correctedn4/CORRECTFLAIR_DE-IDENTIFIED_5320542.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5320542.brainlab/correctedn4/CORRECTADC_DE-IDENTIFIED_5320542.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5320542.brainlab/correctedn4/CORRECTDWI_DE-IDENTIFIED_5320542.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5320542.brainlab/correctedn4/CORRECTT2_DE-IDENTIFIED_5320542.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5320542.brainlab/correctedn4/CORRECTFLAIR_DE-IDENTIFIED_5320542.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5320542.brainlab/correctedn4/CORRECTADC_DE-IDENTIFIED_5320542.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5320542.brainlab/correctedn4/CORRECTFLAIR_DE-IDENTIFIED_5320542.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5320542.brainlab/correctedn4/CORRECTDWI_DE-IDENTIFIED_5320542.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5320542.brainlab/correctedn4/CORRECTT1_DE-IDENTIFIED_5320542.brainlab.nii.gz
+Mask saved: data/2021/DE-IDENTIFIED, 5320542.brainlab/nifti_output/Raw/Final/MASK_DE-IDENTIFIED_5320542.brainlab.nii.gz
+Mask saved: data/2021/DE-IDENTIFIED, 5320542.brainlab/mask/MASK_DE-IDENTIFIED_5320542.brainlab.nii.gz
+Co-localization DE-IDENTIFIED_5320542.brainlab: T1 vs T2 | Pearson: 0.5478, Dice: 0.9111, Jaccard: 0.8367
+Co-localization DE-IDENTIFIED_5320542.brainlab: T1 vs ADC | Pearson: -0.3378, Dice: 0.2283, Jaccard: 0.1289
+Co-localization DE-IDENTIFIED_5320542.brainlab: T1 vs DWI | Pearson: 0.5637, Dice: 0.7424, Jaccard: 0.5904
+Co-localization DE-IDENTIFIED_5320542.brainlab: T1 vs FLAIR | Pearson: 0.9408, Dice: 0.9128, Jaccard: 0.8396
+
+=== Processing patient: DE-IDENTIFIED_5505127.brainlab ===
+dcm2niix success for data/2021/DE-IDENTIFIED, 5505127.brainlab/T1
+dcm2niix success for data/2021/DE-IDENTIFIED, 5505127.brainlab/DWI
+dcm2niix success for data/2021/DE-IDENTIFIED, 5505127.brainlab/ADC
+dcm2niix success for data/2021/DE-IDENTIFIED, 5505127.brainlab/FLAIR
+dcm2niix success for data/2021/DE-IDENTIFIED, 5505127.brainlab/T2
+Standardized: FLAIR_20210101000000_9a.nii.gz -> FLAIR_20210101000000_9a.nii_in_T1.nii.gz
+Standardized: T2_20210101000000_8.nii.gz -> T2_20210101000000_8.nii_in_T1.nii.gz
+Standardized: ADC_20210101000000_7.nii.gz -> ADC_20210101000000_7.nii_in_T1.nii.gz
+Standardized: ADC_20210101000000_7a.nii.gz -> ADC_20210101000000_7a.nii_in_T1.nii.gz
+Standardized: T1_20210101000000_10a.nii.gz -> T1_20210101000000_10a.nii_in_T1.nii.gz
+Standardized: DWI_20210101000000_6a.nii.gz -> DWI_20210101000000_6a.nii_in_T1.nii.gz
+Standardized: T2_20210101000000_8a.nii.gz -> T2_20210101000000_8a.nii_in_T1.nii.gz
+Standardized: T1_20210101000000_10.nii.gz -> T1_20210101000000_10.nii_in_T1.nii.gz
+Standardized: FLAIR_20210101000000_9.nii.gz -> FLAIR_20210101000000_9.nii_in_T1.nii.gz
+Standardized: DWI_20210101000000_6.nii.gz -> DWI_20210101000000_6.nii_in_T1.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5505127.brainlab/correctedn4/CORRECTT2_DE-IDENTIFIED_5505127.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5505127.brainlab/correctedn4/CORRECTT1_DE-IDENTIFIED_5505127.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5505127.brainlab/correctedn4/CORRECTFLAIR_DE-IDENTIFIED_5505127.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5505127.brainlab/correctedn4/CORRECTADC_DE-IDENTIFIED_5505127.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5505127.brainlab/correctedn4/CORRECTDWI_DE-IDENTIFIED_5505127.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5505127.brainlab/correctedn4/CORRECTT2_DE-IDENTIFIED_5505127.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5505127.brainlab/correctedn4/CORRECTFLAIR_DE-IDENTIFIED_5505127.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5505127.brainlab/correctedn4/CORRECTADC_DE-IDENTIFIED_5505127.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5505127.brainlab/correctedn4/CORRECTDWI_DE-IDENTIFIED_5505127.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5505127.brainlab/correctedn4/CORRECTT1_DE-IDENTIFIED_5505127.brainlab.nii.gz
+Mask saved: data/2021/DE-IDENTIFIED, 5505127.brainlab/nifti_output/Raw/Final/MASK_DE-IDENTIFIED_5505127.brainlab.nii.gz
+Mask saved: data/2021/DE-IDENTIFIED, 5505127.brainlab/mask/MASK_DE-IDENTIFIED_5505127.brainlab.nii.gz
+Co-localization DE-IDENTIFIED_5505127.brainlab: T1 vs T2 | Pearson: 0.5739, Dice: 0.8666, Jaccard: 0.7646
+Co-localization DE-IDENTIFIED_5505127.brainlab: T1 vs FLAIR | Pearson: 0.9370, Dice: 0.9261, Jaccard: 0.8623
+Co-localization DE-IDENTIFIED_5505127.brainlab: T1 vs ADC | Pearson: -0.1393, Dice: 0.2617, Jaccard: 0.1505
+Co-localization DE-IDENTIFIED_5505127.brainlab: T1 vs DWI | Pearson: 0.5143, Dice: 0.7104, Jaccard: 0.5509
+
+=== Processing patient: DE-IDENTIFIED_5551695.brainlab ===
+dcm2niix success for data/2021/DE-IDENTIFIED, 5551695.brainlab/T1
+dcm2niix success for data/2021/DE-IDENTIFIED, 5551695.brainlab/DWI
+dcm2niix success for data/2021/DE-IDENTIFIED, 5551695.brainlab/ADC
+dcm2niix success for data/2021/DE-IDENTIFIED, 5551695.brainlab/FLAIR
+dcm2niix success for data/2021/DE-IDENTIFIED, 5551695.brainlab/T2
+Standardized: DWI_20210101000000_5.nii.gz -> DWI_20210101000000_5.nii_in_T1.nii.gz
+Standardized: FLAIR_20210101000000_6.nii.gz -> FLAIR_20210101000000_6.nii_in_T1.nii.gz
+Standardized: T1_20210101000000_12a.nii.gz -> T1_20210101000000_12a.nii_in_T1.nii.gz
+Standardized: DWI_20210101000000_5a.nii.gz -> DWI_20210101000000_5a.nii_in_T1.nii.gz
+Standardized: ADC_20210101000000_4a.nii.gz -> ADC_20210101000000_4a.nii_in_T1.nii.gz
+Standardized: T2_20210101000000_7a.nii.gz -> T2_20210101000000_7a.nii_in_T1.nii.gz
+Standardized: T2_20210101000000_7.nii.gz -> T2_20210101000000_7.nii_in_T1.nii.gz
+Standardized: FLAIR_20210101000000_6a.nii.gz -> FLAIR_20210101000000_6a.nii_in_T1.nii.gz
+Standardized: T1_20210101000000_12.nii.gz -> T1_20210101000000_12.nii_in_T1.nii.gz
+Standardized: ADC_20210101000000_4.nii.gz -> ADC_20210101000000_4.nii_in_T1.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5551695.brainlab/correctedn4/CORRECTT2_DE-IDENTIFIED_5551695.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5551695.brainlab/correctedn4/CORRECTDWI_DE-IDENTIFIED_5551695.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5551695.brainlab/correctedn4/CORRECTT2_DE-IDENTIFIED_5551695.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5551695.brainlab/correctedn4/CORRECTADC_DE-IDENTIFIED_5551695.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5551695.brainlab/correctedn4/CORRECTT1_DE-IDENTIFIED_5551695.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5551695.brainlab/correctedn4/CORRECTFLAIR_DE-IDENTIFIED_5551695.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5551695.brainlab/correctedn4/CORRECTT1_DE-IDENTIFIED_5551695.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5551695.brainlab/correctedn4/CORRECTFLAIR_DE-IDENTIFIED_5551695.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5551695.brainlab/correctedn4/CORRECTADC_DE-IDENTIFIED_5551695.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5551695.brainlab/correctedn4/CORRECTDWI_DE-IDENTIFIED_5551695.brainlab.nii.gz
+Mask saved: data/2021/DE-IDENTIFIED, 5551695.brainlab/nifti_output/Raw/Final/MASK_DE-IDENTIFIED_5551695.brainlab.nii.gz
+Mask saved: data/2021/DE-IDENTIFIED, 5551695.brainlab/mask/MASK_DE-IDENTIFIED_5551695.brainlab.nii.gz
+Co-localization DE-IDENTIFIED_5551695.brainlab: T1 vs T2 | Pearson: 0.2718, Dice: 0.7646, Jaccard: 0.6189
+Co-localization DE-IDENTIFIED_5551695.brainlab: T1 vs DWI | Pearson: -0.0107, Dice: 0.5854, Jaccard: 0.4138
+Co-localization DE-IDENTIFIED_5551695.brainlab: T1 vs ADC | Pearson: -0.1243, Dice: 0.3156, Jaccard: 0.1874
+Co-localization DE-IDENTIFIED_5551695.brainlab: T1 vs FLAIR | Pearson: 0.5726, Dice: 0.8464, Jaccard: 0.7337
+
+=== Processing patient: DE-IDENTIFIED_5632515.brainlab ===
+dcm2niix success for data/2021/DE-IDENTIFIED, 5632515.brainlab/T1
+dcm2niix success for data/2021/DE-IDENTIFIED, 5632515.brainlab/DWI
+dcm2niix success for data/2021/DE-IDENTIFIED, 5632515.brainlab/ADC
+dcm2niix success for data/2021/DE-IDENTIFIED, 5632515.brainlab/FLAIR
+dcm2niix success for data/2021/DE-IDENTIFIED, 5632515.brainlab/T2
+Standardized: T1_20210101000000_12a.nii.gz -> T1_20210101000000_12a.nii_in_T1.nii.gz
+Standardized: FLAIR_20210101000000_9a.nii.gz -> FLAIR_20210101000000_9a.nii_in_T1.nii.gz
+Standardized: T2_20210101000000_8.nii.gz -> T2_20210101000000_8.nii_in_T1.nii.gz
+Standardized: DWI_20210101000000_10.nii.gz -> DWI_20210101000000_10.nii_in_T1.nii.gz
+Standardized: ADC_20210101000000_11a.nii.gz -> ADC_20210101000000_11a.nii_in_T1.nii.gz
+Standardized: T2_20210101000000_8a.nii.gz -> T2_20210101000000_8a.nii_in_T1.nii.gz
+Standardized: T1_20210101000000_12.nii.gz -> T1_20210101000000_12.nii_in_T1.nii.gz
+Standardized: FLAIR_20210101000000_9.nii.gz -> FLAIR_20210101000000_9.nii_in_T1.nii.gz
+Standardized: DWI_20210101000000_10a.nii.gz -> DWI_20210101000000_10a.nii_in_T1.nii.gz
+Standardized: ADC_20210101000000_11.nii.gz -> ADC_20210101000000_11.nii_in_T1.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5632515.brainlab/correctedn4/CORRECTT2_DE-IDENTIFIED_5632515.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5632515.brainlab/correctedn4/CORRECTDWI_DE-IDENTIFIED_5632515.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5632515.brainlab/correctedn4/CORRECTDWI_DE-IDENTIFIED_5632515.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5632515.brainlab/correctedn4/CORRECTADC_DE-IDENTIFIED_5632515.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5632515.brainlab/correctedn4/CORRECTFLAIR_DE-IDENTIFIED_5632515.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5632515.brainlab/correctedn4/CORRECTADC_DE-IDENTIFIED_5632515.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5632515.brainlab/correctedn4/CORRECTT2_DE-IDENTIFIED_5632515.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5632515.brainlab/correctedn4/CORRECTFLAIR_DE-IDENTIFIED_5632515.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5632515.brainlab/correctedn4/CORRECTT1_DE-IDENTIFIED_5632515.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5632515.brainlab/correctedn4/CORRECTT1_DE-IDENTIFIED_5632515.brainlab.nii.gz
+Mask saved: data/2021/DE-IDENTIFIED, 5632515.brainlab/nifti_output/Raw/Final/MASK_DE-IDENTIFIED_5632515.brainlab.nii.gz
+Mask saved: data/2021/DE-IDENTIFIED, 5632515.brainlab/mask/MASK_DE-IDENTIFIED_5632515.brainlab.nii.gz
+Co-localization DE-IDENTIFIED_5632515.brainlab: T1 vs T2 | Pearson: 0.5409, Dice: 0.8365, Jaccard: 0.7190
+Co-localization DE-IDENTIFIED_5632515.brainlab: T1 vs DWI | Pearson: 0.4811, Dice: 0.6828, Jaccard: 0.5183
+Co-localization DE-IDENTIFIED_5632515.brainlab: T1 vs ADC | Pearson: -0.2889, Dice: 0.2144, Jaccard: 0.1200
+Co-localization DE-IDENTIFIED_5632515.brainlab: T1 vs FLAIR | Pearson: 0.9117, Dice: 0.9063, Jaccard: 0.8286
+
+=== Processing patient: DE-IDENTIFIED_5690904.brainlab ===
+dcm2niix success for data/2021/DE-IDENTIFIED, 5690904.brainlab/T1
+dcm2niix success for data/2021/DE-IDENTIFIED, 5690904.brainlab/DWI
+dcm2niix success for data/2021/DE-IDENTIFIED, 5690904.brainlab/ADC
+dcm2niix success for data/2021/DE-IDENTIFIED, 5690904.brainlab/FLAIR
+dcm2niix success for data/2021/DE-IDENTIFIED, 5690904.brainlab/T2
+Standardized: T1_20210101000000_11.nii.gz -> T1_20210101000000_11.nii_in_T1.nii.gz
+Standardized: FLAIR_20210101000000_6.nii.gz -> FLAIR_20210101000000_6.nii_in_T1.nii.gz
+Standardized: ADC_20210101000000_4a.nii.gz -> ADC_20210101000000_4a.nii_in_T1.nii.gz
+Standardized: T1_20210101000000_11a.nii.gz -> T1_20210101000000_11a.nii_in_T1.nii.gz
+Standardized: DWI_20210101000000_3.nii.gz -> DWI_20210101000000_3.nii_in_T1.nii.gz
+Standardized: T2_20210101000000_5a.nii.gz -> T2_20210101000000_5a.nii_in_T1.nii.gz
+Standardized: DWI_20210101000000_3a.nii.gz -> DWI_20210101000000_3a.nii_in_T1.nii.gz
+Standardized: FLAIR_20210101000000_6a.nii.gz -> FLAIR_20210101000000_6a.nii_in_T1.nii.gz
+Standardized: T2_20210101000000_5.nii.gz -> T2_20210101000000_5.nii_in_T1.nii.gz
+Standardized: ADC_20210101000000_4.nii.gz -> ADC_20210101000000_4.nii_in_T1.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5690904.brainlab/correctedn4/CORRECTT1_DE-IDENTIFIED_5690904.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5690904.brainlab/correctedn4/CORRECTT2_DE-IDENTIFIED_5690904.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5690904.brainlab/correctedn4/CORRECTADC_DE-IDENTIFIED_5690904.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5690904.brainlab/correctedn4/CORRECTT2_DE-IDENTIFIED_5690904.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5690904.brainlab/correctedn4/CORRECTDWI_DE-IDENTIFIED_5690904.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5690904.brainlab/correctedn4/CORRECTDWI_DE-IDENTIFIED_5690904.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5690904.brainlab/correctedn4/CORRECTFLAIR_DE-IDENTIFIED_5690904.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5690904.brainlab/correctedn4/CORRECTT1_DE-IDENTIFIED_5690904.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5690904.brainlab/correctedn4/CORRECTFLAIR_DE-IDENTIFIED_5690904.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5690904.brainlab/correctedn4/CORRECTADC_DE-IDENTIFIED_5690904.brainlab.nii.gz
+Mask saved: data/2021/DE-IDENTIFIED, 5690904.brainlab/nifti_output/Raw/Final/MASK_DE-IDENTIFIED_5690904.brainlab.nii.gz
+Mask saved: data/2021/DE-IDENTIFIED, 5690904.brainlab/mask/MASK_DE-IDENTIFIED_5690904.brainlab.nii.gz
+Co-localization DE-IDENTIFIED_5690904.brainlab: T1 vs T2 | Pearson: 0.4232, Dice: 0.7905, Jaccard: 0.6535
+Co-localization DE-IDENTIFIED_5690904.brainlab: T1 vs ADC | Pearson: -0.2349, Dice: 0.2272, Jaccard: 0.1282
+Co-localization DE-IDENTIFIED_5690904.brainlab: T1 vs DWI | Pearson: 0.4120, Dice: 0.6794, Jaccard: 0.5145
+Co-localization DE-IDENTIFIED_5690904.brainlab: T1 vs FLAIR | Pearson: 0.5823, Dice: 0.8491, Jaccard: 0.7378
+
+=== Processing patient: DE-IDENTIFIED_5711119.brainlab ===
+dcm2niix success for data/2021/DE-IDENTIFIED, 5711119.brainlab/T1
+dcm2niix success for data/2021/DE-IDENTIFIED, 5711119.brainlab/DWI
+dcm2niix success for data/2021/DE-IDENTIFIED, 5711119.brainlab/ADC
+dcm2niix success for data/2021/DE-IDENTIFIED, 5711119.brainlab/FLAIR
+dcm2niix success for data/2021/DE-IDENTIFIED, 5711119.brainlab/T2
+Standardized: T2_20210101000000_6.nii.gz -> T2_20210101000000_6.nii_in_T1.nii.gz
+Standardized: T2_20210101000000_6a.nii.gz -> T2_20210101000000_6a.nii_in_T1.nii.gz
+Standardized: T1_20210101000000_11.nii.gz -> T1_20210101000000_11.nii_in_T1.nii.gz
+Standardized: ADC_20210101000000_4a.nii.gz -> ADC_20210101000000_4a.nii_in_T1.nii.gz
+Standardized: T1_20210101000000_11a.nii.gz -> T1_20210101000000_11a.nii_in_T1.nii.gz
+Standardized: DWI_20210101000000_3.nii.gz -> DWI_20210101000000_3.nii_in_T1.nii.gz
+Standardized: DWI_20210101000000_3a.nii.gz -> DWI_20210101000000_3a.nii_in_T1.nii.gz
+Standardized: FLAIR_20210101000000_5.nii.gz -> FLAIR_20210101000000_5.nii_in_T1.nii.gz
+Standardized: ADC_20210101000000_4.nii.gz -> ADC_20210101000000_4.nii_in_T1.nii.gz
+Standardized: FLAIR_20210101000000_5a.nii.gz -> FLAIR_20210101000000_5a.nii_in_T1.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5711119.brainlab/correctedn4/CORRECTT1_DE-IDENTIFIED_5711119.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5711119.brainlab/correctedn4/CORRECTT2_DE-IDENTIFIED_5711119.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5711119.brainlab/correctedn4/CORRECTT2_DE-IDENTIFIED_5711119.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5711119.brainlab/correctedn4/CORRECTFLAIR_DE-IDENTIFIED_5711119.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5711119.brainlab/correctedn4/CORRECTADC_DE-IDENTIFIED_5711119.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5711119.brainlab/correctedn4/CORRECTFLAIR_DE-IDENTIFIED_5711119.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5711119.brainlab/correctedn4/CORRECTDWI_DE-IDENTIFIED_5711119.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5711119.brainlab/correctedn4/CORRECTDWI_DE-IDENTIFIED_5711119.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5711119.brainlab/correctedn4/CORRECTT1_DE-IDENTIFIED_5711119.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5711119.brainlab/correctedn4/CORRECTADC_DE-IDENTIFIED_5711119.brainlab.nii.gz
+Mask saved: data/2021/DE-IDENTIFIED, 5711119.brainlab/nifti_output/Raw/Final/MASK_DE-IDENTIFIED_5711119.brainlab.nii.gz
+Mask saved: data/2021/DE-IDENTIFIED, 5711119.brainlab/mask/MASK_DE-IDENTIFIED_5711119.brainlab.nii.gz
+Co-localization DE-IDENTIFIED_5711119.brainlab: T1 vs T2 | Pearson: 0.3798, Dice: 0.7665, Jaccard: 0.6214
+Co-localization DE-IDENTIFIED_5711119.brainlab: T1 vs FLAIR | Pearson: 0.6380, Dice: 0.8679, Jaccard: 0.7666
+Co-localization DE-IDENTIFIED_5711119.brainlab: T1 vs ADC | Pearson: -0.1881, Dice: 0.3058, Jaccard: 0.1805
+Co-localization DE-IDENTIFIED_5711119.brainlab: T1 vs DWI | Pearson: 0.4609, Dice: 0.6963, Jaccard: 0.5342
+
+=== Processing patient: DE-IDENTIFIED_5807934.brainlab ===
+dcm2niix success for data/2021/DE-IDENTIFIED, 5807934.brainlab/T1
+dcm2niix success for data/2021/DE-IDENTIFIED, 5807934.brainlab/DWI
+dcm2niix success for data/2021/DE-IDENTIFIED, 5807934.brainlab/ADC
+dcm2niix success for data/2021/DE-IDENTIFIED, 5807934.brainlab/FLAIR
+dcm2niix success for data/2021/DE-IDENTIFIED, 5807934.brainlab/T2
+Standardized: T1_20210101000000_11.nii.gz -> T1_20210101000000_11.nii_in_T1.nii.gz
+Standardized: FLAIR_20210101000000_6.nii.gz -> FLAIR_20210101000000_6.nii_in_T1.nii.gz
+Standardized: ADC_20210101000000_4a.nii.gz -> ADC_20210101000000_4a.nii_in_T1.nii.gz
+Standardized: T1_20210101000000_11a.nii.gz -> T1_20210101000000_11a.nii_in_T1.nii.gz
+Standardized: DWI_20210101000000_3.nii.gz -> DWI_20210101000000_3.nii_in_T1.nii.gz
+Standardized: T2_20210101000000_5a.nii.gz -> T2_20210101000000_5a.nii_in_T1.nii.gz
+Standardized: DWI_20210101000000_3a.nii.gz -> DWI_20210101000000_3a.nii_in_T1.nii.gz
+Standardized: FLAIR_20210101000000_6a.nii.gz -> FLAIR_20210101000000_6a.nii_in_T1.nii.gz
+Standardized: T2_20210101000000_5.nii.gz -> T2_20210101000000_5.nii_in_T1.nii.gz
+Standardized: ADC_20210101000000_4.nii.gz -> ADC_20210101000000_4.nii_in_T1.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5807934.brainlab/correctedn4/CORRECTT1_DE-IDENTIFIED_5807934.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5807934.brainlab/correctedn4/CORRECTT2_DE-IDENTIFIED_5807934.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5807934.brainlab/correctedn4/CORRECTADC_DE-IDENTIFIED_5807934.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5807934.brainlab/correctedn4/CORRECTT2_DE-IDENTIFIED_5807934.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5807934.brainlab/correctedn4/CORRECTDWI_DE-IDENTIFIED_5807934.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5807934.brainlab/correctedn4/CORRECTDWI_DE-IDENTIFIED_5807934.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5807934.brainlab/correctedn4/CORRECTFLAIR_DE-IDENTIFIED_5807934.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5807934.brainlab/correctedn4/CORRECTT1_DE-IDENTIFIED_5807934.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5807934.brainlab/correctedn4/CORRECTFLAIR_DE-IDENTIFIED_5807934.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5807934.brainlab/correctedn4/CORRECTADC_DE-IDENTIFIED_5807934.brainlab.nii.gz
+Mask saved: data/2021/DE-IDENTIFIED, 5807934.brainlab/nifti_output/Raw/Final/MASK_DE-IDENTIFIED_5807934.brainlab.nii.gz
+Mask saved: data/2021/DE-IDENTIFIED, 5807934.brainlab/mask/MASK_DE-IDENTIFIED_5807934.brainlab.nii.gz
+Co-localization DE-IDENTIFIED_5807934.brainlab: T1 vs T2 | Pearson: 0.3106, Dice: 0.7280, Jaccard: 0.5723
+Co-localization DE-IDENTIFIED_5807934.brainlab: T1 vs ADC | Pearson: -0.3133, Dice: 0.2370, Jaccard: 0.1344
+Co-localization DE-IDENTIFIED_5807934.brainlab: T1 vs DWI | Pearson: 0.3432, Dice: 0.6410, Jaccard: 0.4717
+Co-localization DE-IDENTIFIED_5807934.brainlab: T1 vs FLAIR | Pearson: 0.9284, Dice: 0.8858, Jaccard: 0.7950
+
+=== Processing patient: DE-IDENTIFIED_5846302.brainlab ===
+dcm2niix success for data/2021/DE-IDENTIFIED, 5846302.brainlab/T1
+dcm2niix success for data/2021/DE-IDENTIFIED, 5846302.brainlab/DWI
+dcm2niix success for data/2021/DE-IDENTIFIED, 5846302.brainlab/ADC
+dcm2niix success for data/2021/DE-IDENTIFIED, 5846302.brainlab/FLAIR
+dcm2niix success for data/2021/DE-IDENTIFIED, 5846302.brainlab/T2
+Standardized: T2_20210101000000_6.nii.gz -> T2_20210101000000_6.nii_in_T1.nii.gz
+Standardized: T2_20210101000000_6a.nii.gz -> T2_20210101000000_6a.nii_in_T1.nii.gz
+Standardized: ADC_20210101000000_5a.nii.gz -> ADC_20210101000000_5a.nii_in_T1.nii.gz
+Standardized: DWI_20210101000000_4a.nii.gz -> DWI_20210101000000_4a.nii_in_T1.nii.gz
+Standardized: T1_20210101000000_8a.nii.gz -> T1_20210101000000_8a.nii_in_T1.nii.gz
+Standardized: T1_20210101000000_8.nii.gz -> T1_20210101000000_8.nii_in_T1.nii.gz
+Standardized: ADC_20210101000000_5.nii.gz -> ADC_20210101000000_5.nii_in_T1.nii.gz
+Standardized: DWI_20210101000000_4.nii.gz -> DWI_20210101000000_4.nii_in_T1.nii.gz
+Standardized: FLAIR_20210101000000_7a.nii.gz -> FLAIR_20210101000000_7a.nii_in_T1.nii.gz
+Standardized: FLAIR_20210101000000_7.nii.gz -> FLAIR_20210101000000_7.nii_in_T1.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5846302.brainlab/correctedn4/CORRECTADC_DE-IDENTIFIED_5846302.brainlab.nii.gzWARNING:root:  T1 folder missing for DE-IDENTIFIED_6112052.brainlab
+WARNING:root:  DWI folder missing for DE-IDENTIFIED_6112052.brainlab
+WARNING:root:  ADC folder missing for DE-IDENTIFIED_6112052.brainlab
+WARNING:root:  FLAIR folder missing for DE-IDENTIFIED_6112052.brainlab
+WARNING:root:  T2 folder missing for DE-IDENTIFIED_6112052.brainlab
+ERROR:root:  No T1 NIfTI found for DE-IDENTIFIED_6112052.brainlab
+
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5846302.brainlab/correctedn4/CORRECTT2_DE-IDENTIFIED_5846302.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5846302.brainlab/correctedn4/CORRECTDWI_DE-IDENTIFIED_5846302.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5846302.brainlab/correctedn4/CORRECTT2_DE-IDENTIFIED_5846302.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5846302.brainlab/correctedn4/CORRECTT1_DE-IDENTIFIED_5846302.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5846302.brainlab/correctedn4/CORRECTT1_DE-IDENTIFIED_5846302.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5846302.brainlab/correctedn4/CORRECTFLAIR_DE-IDENTIFIED_5846302.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5846302.brainlab/correctedn4/CORRECTADC_DE-IDENTIFIED_5846302.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5846302.brainlab/correctedn4/CORRECTDWI_DE-IDENTIFIED_5846302.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 5846302.brainlab/correctedn4/CORRECTFLAIR_DE-IDENTIFIED_5846302.brainlab.nii.gz
+Mask saved: data/2021/DE-IDENTIFIED, 5846302.brainlab/nifti_output/Raw/Final/MASK_DE-IDENTIFIED_5846302.brainlab.nii.gz
+Mask saved: data/2021/DE-IDENTIFIED, 5846302.brainlab/mask/MASK_DE-IDENTIFIED_5846302.brainlab.nii.gz
+Co-localization DE-IDENTIFIED_5846302.brainlab: T1 vs ADC | Pearson: -0.3294, Dice: 0.1970, Jaccard: 0.1092
+Co-localization DE-IDENTIFIED_5846302.brainlab: T1 vs T2 | Pearson: 0.4275, Dice: 0.8229, Jaccard: 0.6991
+Co-localization DE-IDENTIFIED_5846302.brainlab: T1 vs DWI | Pearson: 0.4082, Dice: 0.6573, Jaccard: 0.4895
+Co-localization DE-IDENTIFIED_5846302.brainlab: T1 vs FLAIR | Pearson: 0.9362, Dice: 0.9045, Jaccard: 0.8256
+
+=== Processing patient: DE-IDENTIFIED_6002181.brainlab ===
+dcm2niix success for data/2021/DE-IDENTIFIED, 6002181.brainlab/T1
+dcm2niix success for data/2021/DE-IDENTIFIED, 6002181.brainlab/DWI
+dcm2niix success for data/2021/DE-IDENTIFIED, 6002181.brainlab/ADC
+dcm2niix success for data/2021/DE-IDENTIFIED, 6002181.brainlab/FLAIR
+dcm2niix success for data/2021/DE-IDENTIFIED, 6002181.brainlab/T2
+Standardized: T2_20210101000000_6.nii.gz -> T2_20210101000000_6.nii_in_T1.nii.gz
+Standardized: DWI_20210101000000_5.nii.gz -> DWI_20210101000000_5.nii_in_T1.nii.gz
+Standardized: T2_20210101000000_6a.nii.gz -> T2_20210101000000_6a.nii_in_T1.nii.gz
+Standardized: T1_20210101000000_12a.nii.gz -> T1_20210101000000_12a.nii_in_T1.nii.gz
+Standardized: DWI_20210101000000_5a.nii.gz -> DWI_20210101000000_5a.nii_in_T1.nii.gz
+Standardized: ADC_20210101000000_4a.nii.gz -> ADC_20210101000000_4a.nii_in_T1.nii.gz
+Standardized: FLAIR_20210101000000_7a.nii.gz -> FLAIR_20210101000000_7a.nii_in_T1.nii.gz
+Standardized: FLAIR_20210101000000_7.nii.gz -> FLAIR_20210101000000_7.nii_in_T1.nii.gz
+Standardized: T1_20210101000000_12.nii.gz -> T1_20210101000000_12.nii_in_T1.nii.gz
+Standardized: ADC_20210101000000_4.nii.gz -> ADC_20210101000000_4.nii_in_T1.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6002181.brainlab/correctedn4/CORRECTDWI_DE-IDENTIFIED_6002181.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6002181.brainlab/correctedn4/CORRECTT2_DE-IDENTIFIED_6002181.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6002181.brainlab/correctedn4/CORRECTT2_DE-IDENTIFIED_6002181.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6002181.brainlab/correctedn4/CORRECTADC_DE-IDENTIFIED_6002181.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6002181.brainlab/correctedn4/CORRECTT1_DE-IDENTIFIED_6002181.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6002181.brainlab/correctedn4/CORRECTFLAIR_DE-IDENTIFIED_6002181.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6002181.brainlab/correctedn4/CORRECTT1_DE-IDENTIFIED_6002181.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6002181.brainlab/correctedn4/CORRECTADC_DE-IDENTIFIED_6002181.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6002181.brainlab/correctedn4/CORRECTDWI_DE-IDENTIFIED_6002181.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6002181.brainlab/correctedn4/CORRECTFLAIR_DE-IDENTIFIED_6002181.brainlab.nii.gz
+Mask saved: data/2021/DE-IDENTIFIED, 6002181.brainlab/nifti_output/Raw/Final/MASK_DE-IDENTIFIED_6002181.brainlab.nii.gz
+Mask saved: data/2021/DE-IDENTIFIED, 6002181.brainlab/mask/MASK_DE-IDENTIFIED_6002181.brainlab.nii.gz
+Co-localization DE-IDENTIFIED_6002181.brainlab: T1 vs DWI | Pearson: 0.2752, Dice: 0.7342, Jaccard: 0.5801
+Co-localization DE-IDENTIFIED_6002181.brainlab: T1 vs T2 | Pearson: 0.5734, Dice: 0.8338, Jaccard: 0.7150
+Co-localization DE-IDENTIFIED_6002181.brainlab: T1 vs ADC | Pearson: -0.2463, Dice: 0.2978, Jaccard: 0.1750
+Co-localization DE-IDENTIFIED_6002181.brainlab: T1 vs FLAIR | Pearson: 0.7703, Dice: 0.8636, Jaccard: 0.7600
+
+=== Processing patient: DE-IDENTIFIED_6112052.brainlab ===
+  T1 folder missing for DE-IDENTIFIED_6112052.brainlab
+  DWI folder missing for DE-IDENTIFIED_6112052.brainlab
+  ADC folder missing for DE-IDENTIFIED_6112052.brainlab
+  FLAIR folder missing for DE-IDENTIFIED_6112052.brainlab
+  T2 folder missing for DE-IDENTIFIED_6112052.brainlab
+  No T1 NIfTI found for DE-IDENTIFIED_6112052.brainlab
+
+=== Processing patient: DE-IDENTIFIED_6171269.brainlab ===
+dcm2niix success for data/2021/DE-IDENTIFIED, 6171269.brainlab/T1
+dcm2niix success for data/2021/DE-IDENTIFIED, 6171269.brainlab/DWI
+dcm2niix success for data/2021/DE-IDENTIFIED, 6171269.brainlab/ADC
+dcm2niix success for data/2021/DE-IDENTIFIED, 6171269.brainlab/FLAIR
+dcm2niix success for data/2021/DE-IDENTIFIED, 6171269.brainlab/T2
+Standardized: FLAIR_20210101000000_9a.nii.gz -> FLAIR_20210101000000_9a.nii_in_T1.nii.gz
+Standardized: T2_20210101000000_8.nii.gz -> T2_20210101000000_8.nii_in_T1.nii.gz
+Standardized: ADC_20210101000000_7.nii.gz -> ADC_20210101000000_7.nii_in_T1.nii.gz
+Standardized: ADC_20210101000000_7a.nii.gz -> ADC_20210101000000_7a.nii_in_T1.nii.gz
+Standardized: T1_20210101000000_10a.nii.gz -> T1_20210101000000_10a.nii_in_T1.nii.gz
+Standardized: DWI_20210101000000_6a.nii.gz -> DWI_20210101000000_6a.nii_in_T1.nii.gz
+Standardized: T2_20210101000000_8a.nii.gz -> T2_20210101000000_8a.nii_in_T1.nii.gz
+Standardized: T1_20210101000000_10.nii.gz -> T1_20210101000000_10.nii_in_T1.nii.gz
+Standardized: FLAIR_20210101000000_9.nii.gz -> FLAIR_20210101000000_9.nii_in_T1.nii.gz
+Standardized: DWI_20210101000000_6.nii.gz -> DWI_20210101000000_6.nii_in_T1.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6171269.brainlab/correctedn4/CORRECTT2_DE-IDENTIFIED_6171269.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6171269.brainlab/correctedn4/CORRECTT1_DE-IDENTIFIED_6171269.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6171269.brainlab/correctedn4/CORRECTFLAIR_DE-IDENTIFIED_6171269.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6171269.brainlab/correctedn4/CORRECTADC_DE-IDENTIFIED_6171269.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6171269.brainlab/correctedn4/CORRECTDWI_DE-IDENTIFIED_6171269.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6171269.brainlab/correctedn4/CORRECTT2_DE-IDENTIFIED_6171269.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6171269.brainlab/correctedn4/CORRECTFLAIR_DE-IDENTIFIED_6171269.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6171269.brainlab/correctedn4/CORRECTADC_DE-IDENTIFIED_6171269.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6171269.brainlab/correctedn4/CORRECTDWI_DE-IDENTIFIED_6171269.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6171269.brainlab/correctedn4/CORRECTT1_DE-IDENTIFIED_6171269.brainlab.nii.gz
+Mask saved: data/2021/DE-IDENTIFIED, 6171269.brainlab/nifti_output/Raw/Final/MASK_DE-IDENTIFIED_6171269.brainlab.nii.gz
+Mask saved: data/2021/DE-IDENTIFIED, 6171269.brainlab/mask/MASK_DE-IDENTIFIED_6171269.brainlab.nii.gz
+Co-localization DE-IDENTIFIED_6171269.brainlab: T1 vs T2 | Pearson: 0.5522, Dice: 0.8976, Jaccard: 0.8142
+Co-localization DE-IDENTIFIED_6171269.brainlab: T1 vs FLAIR | Pearson: 0.9548, Dice: 0.9358, Jaccard: 0.8793
+Co-localization DE-IDENTIFIED_6171269.brainlab: T1 vs ADC | Pearson: -0.2258, Dice: 0.2342, Jaccard: 0.1326
+Co-localization DE-IDENTIFIED_6171269.brainlab: T1 vs DWI | Pearson: 0.5179, Dice: 0.7334, Jaccard: 0.5790
+
+=== Processing patient: DE-IDENTIFIED_6174233.brainlab ===
+dcm2niix success for data/2021/DE-IDENTIFIED, 6174233.brainlab/T1
+dcm2niix success for data/2021/DE-IDENTIFIED, 6174233.brainlab/DWI
+dcm2niix success for data/2021/DE-IDENTIFIED, 6174233.brainlab/ADC
+dcm2niix success for data/2021/DE-IDENTIFIED, 6174233.brainlab/FLAIR
+dcm2niix success for data/2021/DE-IDENTIFIED, 6174233.brainlab/T2
+Standardized: T2_20210101000000_6.nii.gz -> T2_20210101000000_6.nii_in_T1.nii.gz
+Standardized: DWI_20210101000000_5.nii.gz -> DWI_20210101000000_5.nii_in_T1.nii.gz
+Standardized: T2_20210101000000_6a.nii.gz -> T2_20210101000000_6a.nii_in_T1.nii.gz
+Standardized: T1_20210101000000_12a.nii.gz -> T1_20210101000000_12a.nii_in_T1.nii.gz
+Standardized: DWI_20210101000000_5a.nii.gz -> DWI_20210101000000_5a.nii_in_T1.nii.gz
+Standardized: ADC_20210101000000_4a.nii.gz -> ADC_20210101000000_4a.nii_in_T1.nii.gz
+Standardized: FLAIR_20210101000000_7a.nii.gz -> FLAIR_20210101000000_7a.nii_in_T1.nii.gz
+Standardized: FLAIR_20210101000000_7.nii.gz -> FLAIR_20210101000000_7.nii_in_T1.nii.gz
+Standardized: T1_20210101000000_12.nii.gz -> T1_20210101000000_12.nii_in_T1.nii.gz
+Standardized: ADC_20210101000000_4.nii.gz -> ADC_20210101000000_4.nii_in_T1.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6174233.brainlab/correctedn4/CORRECTDWI_DE-IDENTIFIED_6174233.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6174233.brainlab/correctedn4/CORRECTT2_DE-IDENTIFIED_6174233.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6174233.brainlab/correctedn4/CORRECTT2_DE-IDENTIFIED_6174233.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6174233.brainlab/correctedn4/CORRECTADC_DE-IDENTIFIED_6174233.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6174233.brainlab/correctedn4/CORRECTT1_DE-IDENTIFIED_6174233.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6174233.brainlab/correctedn4/CORRECTFLAIR_DE-IDENTIFIED_6174233.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6174233.brainlab/correctedn4/CORRECTT1_DE-IDENTIFIED_6174233.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6174233.brainlab/correctedn4/CORRECTADC_DE-IDENTIFIED_6174233.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6174233.brainlab/correctedn4/CORRECTDWI_DE-IDENTIFIED_6174233.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6174233.brainlab/correctedn4/CORRECTFLAIR_DE-IDENTIFIED_6174233.brainlab.nii.gz
+Mask saved: data/2021/DE-IDENTIFIED, 6174233.brainlab/nifti_output/Raw/Final/MASK_DE-IDENTIFIED_6174233.brainlab.nii.gz
+Mask saved: data/2021/DE-IDENTIFIED, 6174233.brainlab/mask/MASK_DE-IDENTIFIED_6174233.brainlab.nii.gz
+Co-localization DE-IDENTIFIED_6174233.brainlab: T1 vs DWI | Pearson: -0.1589, Dice: 0.2451, Jaccard: 0.1396
+Co-localization DE-IDENTIFIED_6174233.brainlab: T1 vs T2 | Pearson: 0.3225, Dice: 0.8037, Jaccard: 0.6718
+Co-localization DE-IDENTIFIED_6174233.brainlab: T1 vs ADC | Pearson: -0.0117, Dice: 0.3698, Jaccard: 0.2268
+Co-localization DE-IDENTIFIED_6174233.brainlab: T1 vs FLAIR | Pearson: 0.5227, Dice: 0.8761, Jaccard: 0.7796
+
+=== Processing patient: DE-IDENTIFIED_6220417.brainlab ===
+dcm2niix success for data/2021/DE-IDENTIFIED, 6220417.brainlab/T1
+dcm2niix success for data/2021/DE-IDENTIFIED, 6220417.brainlab/DWI
+dcm2niix success for data/2021/DE-IDENTIFIED, 6220417.brainlab/ADC
+dcm2niix success for data/2021/DE-IDENTIFIED, 6220417.brainlab/FLAIR
+dcm2niix success for data/2021/DE-IDENTIFIED, 6220417.brainlab/T2
+Standardized: DWI_20210101000000_5.nii.gz -> DWI_20210101000000_5.nii_in_T1.nii.gz
+Standardized: FLAIR_20210101000000_6.nii.gz -> FLAIR_20210101000000_6.nii_in_T1.nii.gz
+Standardized: T1_20210101000000_12a.nii.gz -> T1_20210101000000_12a.nii_in_T1.nii.gz
+Standardized: DWI_20210101000000_5a.nii.gz -> DWI_20210101000000_5a.nii_in_T1.nii.gz
+Standardized: ADC_20210101000000_4a.nii.gz -> ADC_20210101000000_4a.nii_in_T1.nii.gz
+Standardized: T2_20210101000000_7a.nii.gz -> T2_20210101000000_7a.nii_in_T1.nii.gz
+Standardized: T2_20210101000000_7.nii.gz -> T2_20210101000000_7.nii_in_T1.nii.gz
+Standardized: FLAIR_20210101000000_6a.nii.gz -> FLAIR_20210101000000_6a.nii_in_T1.nii.gz
+Standardized: T1_20210101000000_12.nii.gz -> T1_20210101000000_12.nii_in_T1.nii.gz
+Standardized: ADC_20210101000000_4.nii.gz -> ADC_20210101000000_4.nii_in_T1.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6220417.brainlab/correctedn4/CORRECTT2_DE-IDENTIFIED_6220417.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6220417.brainlab/correctedn4/CORRECTDWI_DE-IDENTIFIED_6220417.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6220417.brainlab/correctedn4/CORRECTT2_DE-IDENTIFIED_6220417.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6220417.brainlab/correctedn4/CORRECTADC_DE-IDENTIFIED_6220417.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6220417.brainlab/correctedn4/CORRECTT1_DE-IDENTIFIED_6220417.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6220417.brainlab/correctedn4/CORRECTFLAIR_DE-IDENTIFIED_6220417.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6220417.brainlab/correctedn4/CORRECTT1_DE-IDENTIFIED_6220417.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6220417.brainlab/correctedn4/CORRECTFLAIR_DE-IDENTIFIED_6220417.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6220417.brainlab/correctedn4/CORRECTADC_DE-IDENTIFIED_6220417.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6220417.brainlab/correctedn4/CORRECTDWI_DE-IDENTIFIED_6220417.brainlab.nii.gz
+Mask saved: data/2021/DE-IDENTIFIED, 6220417.brainlab/nifti_output/Raw/Final/MASK_DE-IDENTIFIED_6220417.brainlab.nii.gz
+Mask saved: data/2021/DE-IDENTIFIED, 6220417.brainlab/mask/MASK_DE-IDENTIFIED_6220417.brainlab.nii.gz
+Co-localization DE-IDENTIFIED_6220417.brainlab: T1 vs T2 | Pearson: 0.2591, Dice: 0.7331, Jaccard: 0.5786
+Co-localization DE-IDENTIFIED_6220417.brainlab: T1 vs DWI | Pearson: -0.1944, Dice: 0.3117, Jaccard: 0.1846
+Co-localization DE-IDENTIFIED_6220417.brainlab: T1 vs ADC | Pearson: -0.1521, Dice: 0.3196, Jaccard: 0.1902
+Co-localization DE-IDENTIFIED_6220417.brainlab: T1 vs FLAIR | Pearson: 0.5306, Dice: 0.8054, Jaccard: 0.6741
+
+=== Processing patient: DE-IDENTIFIED_6255302.brainlab ===
+dcm2niix success for data/2021/DE-IDENTIFIED, 6255302.brainlab/T1
+dcm2niix success for data/2021/DE-IDENTIFIED, 6255302.brainlab/DWI
+dcm2niix success for data/2021/DE-IDENTIFIED, 6255302.brainlab/ADC
+dcm2niix success for data/2021/DE-IDENTIFIED, 6255302.brainlab/FLAIR
+dcm2niix success for data/2021/DE-IDENTIFIED, 6255302.brainlab/T2
+Standardized: FLAIR_20210101000000_6.nii.gz -> FLAIR_20210101000000_6.nii_in_T1.nii.gz
+Standardized: ADC_20210101000000_4a.nii.gz -> ADC_20210101000000_4a.nii_in_T1.nii.gz
+Standardized: DWI_20210101000000_3.nii.gz -> DWI_20210101000000_3.nii_in_T1.nii.gz
+Standardized: T2_20210101000000_5a.nii.gz -> T2_20210101000000_5a.nii_in_T1.nii.gz
+Standardized: DWI_20210101000000_3a.nii.gz -> DWI_20210101000000_3a.nii_in_T1.nii.gz
+Standardized: T1_20210101000000_7a.nii.gz -> T1_20210101000000_7a.nii_in_T1.nii.gz
+Standardized: FLAIR_20210101000000_6a.nii.gz -> FLAIR_20210101000000_6a.nii_in_T1.nii.gz
+Standardized: T2_20210101000000_5.nii.gz -> T2_20210101000000_5.nii_in_T1.nii.gz
+Standardized: T1_20210101000000_7.nii.gz -> T1_20210101000000_7.nii_in_T1.nii.gz
+Standardized: ADC_20210101000000_4.nii.gz -> ADC_20210101000000_4.nii_in_T1.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6255302.brainlab/correctedn4/CORRECTT2_DE-IDENTIFIED_6255302.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6255302.brainlab/correctedn4/CORRECTT1_DE-IDENTIFIED_6255302.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6255302.brainlab/correctedn4/CORRECTADC_DE-IDENTIFIED_6255302.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6255302.brainlab/correctedn4/CORRECTT2_DE-IDENTIFIED_6255302.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6255302.brainlab/correctedn4/CORRECTDWI_DE-IDENTIFIED_6255302.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6255302.brainlab/correctedn4/CORRECTDWI_DE-IDENTIFIED_6255302.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6255302.brainlab/correctedn4/CORRECTFLAIR_DE-IDENTIFIED_6255302.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6255302.brainlab/correctedn4/CORRECTT1_DE-IDENTIFIED_6255302.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6255302.brainlab/correctedn4/CORRECTFLAIR_DE-IDENTIFIED_6255302.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 6255302.brainlab/correctedn4/CORRECTADC_DE-IDENTIFIED_6255302.brainlab.nii.gz
+Mask saved: data/2021/DE-IDENTIFIED, 6255302.brainlab/nifti_output/Raw/Final/MASK_DE-IDENTIFIED_6255302.brainlab.nii.gz
+Mask saved: data/2021/DE-IDENTIFIED, 6255302.brainlab/mask/MASK_DE-IDENTIFIED_6255302.brainlab.nii.gz
+Co-localization DE-IDENTIFIED_6255302.brainlab: T1 vs T2 | Pearson: 0.5500, Dice: 0.8703, Jaccard: 0.7705
+Co-localization DE-IDENTIFIED_6255302.brainlab: T1 vs ADC | Pearson: -0.6403, Dice: 0.1333, Jaccard: 0.0714
+Co-localization DE-IDENTIFIED_6255302.brainlab: T1 vs DWI | Pearson: 0.5778, Dice: 0.7168, Jaccard: 0.5586
+Co-localization DE-IDENTIFIED_6255302.brainlab: T1 vs FLAIR | Pearson: 0.9464, Dice: 0.9319, Jaccard: 0.8726
+
+=== Processing patient: DE-IDENTIFIED_7023115.brainlab ===
+dcm2niix success for data/2021/DE-IDENTIFIED, 7023115.brainlab/T1
+dcm2niix success for data/2021/DE-IDENTIFIED, 7023115.brainlab/DWI
+dcm2niix success for data/2021/DE-IDENTIFIED, 7023115.brainlab/ADC
+dcm2niix success for data/2021/DE-IDENTIFIED, 7023115.brainlab/FLAIR
+dcm2niix success for data/2021/DE-IDENTIFIED, 7023115.brainlab/T2
+Standardized: DWI_20210101000000_5.nii.gz -> DWI_20210101000000_5.nii_in_T1.nii.gz
+Standardized: FLAIR_20210101000000_6.nii.gz -> FLAIR_20210101000000_6.nii_in_T1.nii.gz
+Standardized: T1_20210101000000_12a.nii.gz -> T1_20210101000000_12a.nii_in_T1.nii.gz
+Standardized: DWI_20210101000000_5a.nii.gz -> DWI_20210101000000_5a.nii_in_T1.nii.gz
+Standardized: ADC_20210101000000_4a.nii.gz -> ADC_20210101000000_4a.nii_in_T1.nii.gz
+Standardized: T2_20210101000000_7a.nii.gz -> T2_20210101000000_7a.nii_in_T1.nii.gz
+Standardized: T2_20210101000000_7.nii.gz -> T2_20210101000000_7.nii_in_T1.nii.gz
+Standardized: FLAIR_20210101000000_6a.nii.gz -> FLAIR_20210101000000_6a.nii_in_T1.nii.gz
+Standardized: T1_20210101000000_12.nii.gz -> T1_20210101000000_12.nii_in_T1.nii.gz
+Standardized: ADC_20210101000000_4.nii.gz -> ADC_20210101000000_4.nii_in_T1.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7023115.brainlab/correctedn4/CORRECTT2_DE-IDENTIFIED_7023115.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7023115.brainlab/correctedn4/CORRECTDWI_DE-IDENTIFIED_7023115.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7023115.brainlab/correctedn4/CORRECTT2_DE-IDENTIFIED_7023115.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7023115.brainlab/correctedn4/CORRECTADC_DE-IDENTIFIED_7023115.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7023115.brainlab/correctedn4/CORRECTT1_DE-IDENTIFIED_7023115.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7023115.brainlab/correctedn4/CORRECTFLAIR_DE-IDENTIFIED_7023115.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7023115.brainlab/correctedn4/CORRECTT1_DE-IDENTIFIED_7023115.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7023115.brainlab/correctedn4/CORRECTFLAIR_DE-IDENTIFIED_7023115.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7023115.brainlab/correctedn4/CORRECTADC_DE-IDENTIFIED_7023115.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7023115.brainlab/correctedn4/CORRECTDWI_DE-IDENTIFIED_7023115.brainlab.nii.gz
+Mask saved: data/2021/DE-IDENTIFIED, 7023115.brainlab/nifti_output/Raw/Final/MASK_DE-IDENTIFIED_7023115.brainlab.nii.gz
+Mask saved: data/2021/DE-IDENTIFIED, 7023115.brainlab/mask/MASK_DE-IDENTIFIED_7023115.brainlab.nii.gz
+Co-localization DE-IDENTIFIED_7023115.brainlab: T1 vs T2 | Pearson: 0.1166, Dice: 0.6546, Jaccard: 0.4865
+Co-localization DE-IDENTIFIED_7023115.brainlab: T1 vs DWI | Pearson: -0.2092, Dice: 0.3077, Jaccard: 0.1818
+Co-localization DE-IDENTIFIED_7023115.brainlab: T1 vs ADC | Pearson: -0.2693, Dice: 0.2484, Jaccard: 0.1418
+Co-localization DE-IDENTIFIED_7023115.brainlab: T1 vs FLAIR | Pearson: 0.4665, Dice: 0.8018, Jaccard: 0.6692
+
+=== Processing patient: DE-IDENTIFIED_7316108.brainlab ===
+dcm2niix success for data/2021/DE-IDENTIFIED, 7316108.brainlab/T1
+dcm2niix success for data/2021/DE-IDENTIFIED, 7316108.brainlab/DWI
+dcm2niix success for data/2021/DE-IDENTIFIED, 7316108.brainlab/ADC
+dcm2niix success for data/2021/DE-IDENTIFIED, 7316108.brainlab/FLAIR
+dcm2niix success for data/2021/DE-IDENTIFIED, 7316108.brainlab/T2
+Standardized: T1_20210101000000_11.nii.gz -> T1_20210101000000_11.nii_in_T1.nii.gz
+Standardized: FLAIR_20210101000000_6.nii.gz -> FLAIR_20210101000000_6.nii_in_T1.nii.gz
+Standardized: ADC_20210101000000_4a.nii.gz -> ADC_20210101000000_4a.nii_in_T1.nii.gz
+Standardized: T1_20210101000000_11a.nii.gz -> T1_20210101000000_11a.nii_in_T1.nii.gz
+Standardized: DWI_20210101000000_3.nii.gz -> DWI_20210101000000_3.nii_in_T1.nii.gz
+Standardized: T2_20210101000000_5a.nii.gz -> T2_20210101000000_5a.nii_in_T1.nii.gz
+Standardized: DWI_20210101000000_3a.nii.gz -> DWI_20210101000000_3a.nii_in_T1.nii.gz
+Standardized: FLAIR_20210101000000_6a.nii.gz -> FLAIR_20210101000000_6a.nii_in_T1.nii.gz
+Standardized: T2_20210101000000_5.nii.gz -> T2_20210101000000_5.nii_in_T1.nii.gz
+Standardized: ADC_20210101000000_4.nii.gz -> ADC_20210101000000_4.nii_in_T1.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7316108.brainlab/correctedn4/CORRECTT1_DE-IDENTIFIED_7316108.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7316108.brainlab/correctedn4/CORRECTT2_DE-IDENTIFIED_7316108.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7316108.brainlab/correctedn4/CORRECTADC_DE-IDENTIFIED_7316108.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7316108.brainlab/correctedn4/CORRECTT2_DE-IDENTIFIED_7316108.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7316108.brainlab/correctedn4/CORRECTDWI_DE-IDENTIFIED_7316108.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7316108.brainlab/correctedn4/CORRECTDWI_DE-IDENTIFIED_7316108.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7316108.brainlab/correctedn4/CORRECTFLAIR_DE-IDENTIFIED_7316108.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7316108.brainlab/correctedn4/CORRECTT1_DE-IDENTIFIED_7316108.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7316108.brainlab/correctedn4/CORRECTFLAIR_DE-IDENTIFIED_7316108.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7316108.brainlab/correctedn4/CORRECTADC_DE-IDENTIFIED_7316108.brainlab.nii.gz
+Mask saved: data/2021/DE-IDENTIFIED, 7316108.brainlab/nifti_output/Raw/Final/MASK_DE-IDENTIFIED_7316108.brainlab.nii.gz
+Mask saved: data/2021/DE-IDENTIFIED, 7316108.brainlab/mask/MASK_DE-IDENTIFIED_7316108.brainlab.nii.gz
+Co-localization DE-IDENTIFIED_7316108.brainlab: T1 vs T2 | Pearson: 0.4844, Dice: 0.8197, Jaccard: 0.6944
+Co-localization DE-IDENTIFIED_7316108.brainlab: T1 vs ADC | Pearson: -0.3413, Dice: 0.1884, Jaccard: 0.1040
+Co-localization DE-IDENTIFIED_7316108.brainlab: T1 vs DWI | Pearson: 0.5069, Dice: 0.6726, Jaccard: 0.5066
+Co-localization DE-IDENTIFIED_7316108.brainlab: T1 vs FLAIR | Pearson: 0.6915, Dice: 0.8826, Jaccard: 0.7899
+
+=== Processing patient: DE-IDENTIFIED_7321220.brainlab ===
+dcm2niix success for data/2021/DE-IDENTIFIED, 7321220.brainlab/T1
+dcm2niix success for data/2021/DE-IDENTIFIED, 7321220.brainlab/DWI
+dcm2niix success for data/2021/DE-IDENTIFIED, 7321220.brainlab/ADC
+dcm2niix success for data/2021/DE-IDENTIFIED, 7321220.brainlab/FLAIRWARNING:root:  T2 folder missing for DE-IDENTIFIED_7323437.brainlab
+
+dcm2niix success for data/2021/DE-IDENTIFIED, 7321220.brainlab/T2
+Standardized: DWI_20210101000000_5.nii.gz -> DWI_20210101000000_5.nii_in_T1.nii.gz
+Standardized: FLAIR_20210101000000_6.nii.gz -> FLAIR_20210101000000_6.nii_in_T1.nii.gz
+Standardized: T1_20210101000000_12a.nii.gz -> T1_20210101000000_12a.nii_in_T1.nii.gz
+Standardized: DWI_20210101000000_5a.nii.gz -> DWI_20210101000000_5a.nii_in_T1.nii.gz
+Standardized: ADC_20210101000000_4a.nii.gz -> ADC_20210101000000_4a.nii_in_T1.nii.gz
+Standardized: T2_20210101000000_7a.nii.gz -> T2_20210101000000_7a.nii_in_T1.nii.gz
+Standardized: T2_20210101000000_7.nii.gz -> T2_20210101000000_7.nii_in_T1.nii.gz
+Standardized: FLAIR_20210101000000_6a.nii.gz -> FLAIR_20210101000000_6a.nii_in_T1.nii.gz
+Standardized: T1_20210101000000_12.nii.gz -> T1_20210101000000_12.nii_in_T1.nii.gz
+Standardized: ADC_20210101000000_4.nii.gz -> ADC_20210101000000_4.nii_in_T1.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7321220.brainlab/correctedn4/CORRECTT2_DE-IDENTIFIED_7321220.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7321220.brainlab/correctedn4/CORRECTDWI_DE-IDENTIFIED_7321220.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7321220.brainlab/correctedn4/CORRECTT2_DE-IDENTIFIED_7321220.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7321220.brainlab/correctedn4/CORRECTADC_DE-IDENTIFIED_7321220.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7321220.brainlab/correctedn4/CORRECTT1_DE-IDENTIFIED_7321220.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7321220.brainlab/correctedn4/CORRECTFLAIR_DE-IDENTIFIED_7321220.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7321220.brainlab/correctedn4/CORRECTT1_DE-IDENTIFIED_7321220.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7321220.brainlab/correctedn4/CORRECTFLAIR_DE-IDENTIFIED_7321220.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7321220.brainlab/correctedn4/CORRECTADC_DE-IDENTIFIED_7321220.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7321220.brainlab/correctedn4/CORRECTDWI_DE-IDENTIFIED_7321220.brainlab.nii.gz
+Mask saved: data/2021/DE-IDENTIFIED, 7321220.brainlab/nifti_output/Raw/Final/MASK_DE-IDENTIFIED_7321220.brainlab.nii.gz
+Mask saved: data/2021/DE-IDENTIFIED, 7321220.brainlab/mask/MASK_DE-IDENTIFIED_7321220.brainlab.nii.gz
+Co-localization DE-IDENTIFIED_7321220.brainlab: T1 vs T2 | Pearson: 0.1964, Dice: 0.7352, Jaccard: 0.5813
+Co-localization DE-IDENTIFIED_7321220.brainlab: T1 vs DWI | Pearson: -0.1991, Dice: 0.3411, Jaccard: 0.2056
+Co-localization DE-IDENTIFIED_7321220.brainlab: T1 vs ADC | Pearson: -0.2163, Dice: 0.2934, Jaccard: 0.1719
+Co-localization DE-IDENTIFIED_7321220.brainlab: T1 vs FLAIR | Pearson: 0.5582, Dice: 0.8543, Jaccard: 0.7457
+
+=== Processing patient: DE-IDENTIFIED_7322060.brainlab ===
+dcm2niix success for data/2021/DE-IDENTIFIED, 7322060.brainlab/T1
+dcm2niix success for data/2021/DE-IDENTIFIED, 7322060.brainlab/DWI
+dcm2niix success for data/2021/DE-IDENTIFIED, 7322060.brainlab/ADC
+dcm2niix success for data/2021/DE-IDENTIFIED, 7322060.brainlab/FLAIR
+dcm2niix success for data/2021/DE-IDENTIFIED, 7322060.brainlab/T2
+Standardized: DWI_20210101000000_5.nii.gz -> DWI_20210101000000_5.nii_in_T1.nii.gz
+Standardized: FLAIR_20210101000000_6.nii.gz -> FLAIR_20210101000000_6.nii_in_T1.nii.gz
+Standardized: T1_20210101000000_12a.nii.gz -> T1_20210101000000_12a.nii_in_T1.nii.gz
+Standardized: DWI_20210101000000_5a.nii.gz -> DWI_20210101000000_5a.nii_in_T1.nii.gz
+Standardized: ADC_20210101000000_4a.nii.gz -> ADC_20210101000000_4a.nii_in_T1.nii.gz
+Standardized: T2_20210101000000_7a.nii.gz -> T2_20210101000000_7a.nii_in_T1.nii.gz
+Standardized: T2_20210101000000_7.nii.gz -> T2_20210101000000_7.nii_in_T1.nii.gz
+Standardized: FLAIR_20210101000000_6a.nii.gz -> FLAIR_20210101000000_6a.nii_in_T1.nii.gz
+Standardized: T1_20210101000000_12.nii.gz -> T1_20210101000000_12.nii_in_T1.nii.gz
+Standardized: ADC_20210101000000_4.nii.gz -> ADC_20210101000000_4.nii_in_T1.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7322060.brainlab/correctedn4/CORRECTT2_DE-IDENTIFIED_7322060.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7322060.brainlab/correctedn4/CORRECTDWI_DE-IDENTIFIED_7322060.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7322060.brainlab/correctedn4/CORRECTT2_DE-IDENTIFIED_7322060.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7322060.brainlab/correctedn4/CORRECTADC_DE-IDENTIFIED_7322060.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7322060.brainlab/correctedn4/CORRECTT1_DE-IDENTIFIED_7322060.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7322060.brainlab/correctedn4/CORRECTFLAIR_DE-IDENTIFIED_7322060.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7322060.brainlab/correctedn4/CORRECTT1_DE-IDENTIFIED_7322060.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7322060.brainlab/correctedn4/CORRECTFLAIR_DE-IDENTIFIED_7322060.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7322060.brainlab/correctedn4/CORRECTADC_DE-IDENTIFIED_7322060.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7322060.brainlab/correctedn4/CORRECTDWI_DE-IDENTIFIED_7322060.brainlab.nii.gz
+Mask saved: data/2021/DE-IDENTIFIED, 7322060.brainlab/nifti_output/Raw/Final/MASK_DE-IDENTIFIED_7322060.brainlab.nii.gz
+Mask saved: data/2021/DE-IDENTIFIED, 7322060.brainlab/mask/MASK_DE-IDENTIFIED_7322060.brainlab.nii.gz
+Co-localization DE-IDENTIFIED_7322060.brainlab: T1 vs T2 | Pearson: 0.1664, Dice: 0.6693, Jaccard: 0.5030
+Co-localization DE-IDENTIFIED_7322060.brainlab: T1 vs DWI | Pearson: -0.0888, Dice: 0.4985, Jaccard: 0.3320
+Co-localization DE-IDENTIFIED_7322060.brainlab: T1 vs ADC | Pearson: -0.2374, Dice: 0.3103, Jaccard: 0.1836
+Co-localization DE-IDENTIFIED_7322060.brainlab: T1 vs FLAIR | Pearson: 0.5846, Dice: 0.8250, Jaccard: 0.7021
+
+=== Processing patient: DE-IDENTIFIED_7323437.brainlab ===
+dcm2niix success for data/2021/DE-IDENTIFIED, 7323437.brainlab/T1
+dcm2niix success for data/2021/DE-IDENTIFIED, 7323437.brainlab/DWI
+dcm2niix success for data/2021/DE-IDENTIFIED, 7323437.brainlab/ADC
+dcm2niix success for data/2021/DE-IDENTIFIED, 7323437.brainlab/FLAIR
+  T2 folder missing for DE-IDENTIFIED_7323437.brainlab
+Standardized: DWI_20210101000000_5.nii.gz -> DWI_20210101000000_5.nii_in_T1.nii.gz
+Standardized: T1_20210101000000_11.nii.gz -> T1_20210101000000_11.nii_in_T1.nii.gz
+Standardized: FLAIR_20210101000000_6.nii.gz -> FLAIR_20210101000000_6.nii_in_T1.nii.gz
+Standardized: DWI_20210101000000_5a.nii.gz -> DWI_20210101000000_5a.nii_in_T1.nii.gz
+Standardized: ADC_20210101000000_4a.nii.gz -> ADC_20210101000000_4a.nii_in_T1.nii.gz
+Standardized: T1_20210101000000_11a.nii.gz -> T1_20210101000000_11a.nii_in_T1.nii.gz
+Standardized: FLAIR_20210101000000_6a.nii.gz -> FLAIR_20210101000000_6a.nii_in_T1.nii.gz
+Standardized: ADC_20210101000000_4.nii.gz -> ADC_20210101000000_4.nii_in_T1.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7323437.brainlab/correctedn4/CORRECTT1_DE-IDENTIFIED_7323437.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7323437.brainlab/correctedn4/CORRECTDWI_DE-IDENTIFIED_7323437.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7323437.brainlab/correctedn4/CORRECTADC_DE-IDENTIFIED_7323437.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7323437.brainlab/correctedn4/CORRECTFLAIR_DE-IDENTIFIED_7323437.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7323437.brainlab/correctedn4/CORRECTT1_DE-IDENTIFIED_7323437.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7323437.brainlab/correctedn4/CORRECTFLAIR_DE-IDENTIFIED_7323437.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7323437.brainlab/correctedn4/CORRECTADC_DE-IDENTIFIED_7323437.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7323437.brainlab/correctedn4/CORRECTDWI_DE-IDENTIFIED_7323437.brainlab.nii.gz
+Mask saved: data/2021/DE-IDENTIFIED, 7323437.brainlab/nifti_output/Raw/Final/MASK_DE-IDENTIFIED_7323437.brainlab.nii.gz
+Mask saved: data/2021/DE-IDENTIFIED, 7323437.brainlab/mask/MASK_DE-IDENTIFIED_7323437.brainlab.nii.gz
+Co-localization DE-IDENTIFIED_7323437.brainlab: T1 vs DWI | Pearson: -0.1842, Dice: 0.3703, Jaccard: 0.2272
+Co-localization DE-IDENTIFIED_7323437.brainlab: T1 vs ADC | Pearson: -0.1729, Dice: 0.2828, Jaccard: 0.1647
+Co-localization DE-IDENTIFIED_7323437.brainlab: T1 vs FLAIR | Pearson: 0.5587, Dice: 0.8864, Jaccard: 0.7960
+
+=== Processing patient: DE-IDENTIFIED_7530781.brainlab ===
+dcm2niix success for data/2021/DE-IDENTIFIED, 7530781.brainlab/T1
+dcm2niix success for data/2021/DE-IDENTIFIED, 7530781.brainlab/DWI
+dcm2niix success for data/2021/DE-IDENTIFIED, 7530781.brainlab/ADC
+dcm2niix success for data/2021/DE-IDENTIFIED, 7530781.brainlab/FLAIR
+dcm2niix success for data/2021/DE-IDENTIFIED, 7530781.brainlab/T2
+Standardized: T1_20210101000000_11.nii.gz -> T1_20210101000000_11.nii_in_T1.nii.gz
+Standardized: FLAIR_20210101000000_6.nii.gz -> FLAIR_20210101000000_6.nii_in_T1.nii.gz
+Standardized: ADC_20210101000000_4a.nii.gz -> ADC_20210101000000_4a.nii_in_T1.nii.gz
+Standardized: T1_20210101000000_11a.nii.gz -> T1_20210101000000_11a.nii_in_T1.nii.gz
+Standardized: DWI_20210101000000_3.nii.gz -> DWI_20210101000000_3.nii_in_T1.nii.gz
+Standardized: T2_20210101000000_5a.nii.gz -> T2_20210101000000_5a.nii_in_T1.nii.gz
+Standardized: DWI_20210101000000_3a.nii.gz -> DWI_20210101000000_3a.nii_in_T1.nii.gz
+Standardized: FLAIR_20210101000000_6a.nii.gz -> FLAIR_20210101000000_6a.nii_in_T1.nii.gz
+Standardized: T2_20210101000000_5.nii.gz -> T2_20210101000000_5.nii_in_T1.nii.gz
+Standardized: ADC_20210101000000_4.nii.gz -> ADC_20210101000000_4.nii_in_T1.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7530781.brainlab/correctedn4/CORRECTT1_DE-IDENTIFIED_7530781.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7530781.brainlab/correctedn4/CORRECTT2_DE-IDENTIFIED_7530781.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7530781.brainlab/correctedn4/CORRECTADC_DE-IDENTIFIED_7530781.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7530781.brainlab/correctedn4/CORRECTT2_DE-IDENTIFIED_7530781.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7530781.brainlab/correctedn4/CORRECTDWI_DE-IDENTIFIED_7530781.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7530781.brainlab/correctedn4/CORRECTDWI_DE-IDENTIFIED_7530781.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7530781.brainlab/correctedn4/CORRECTFLAIR_DE-IDENTIFIED_7530781.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7530781.brainlab/correctedn4/CORRECTT1_DE-IDENTIFIED_7530781.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7530781.brainlab/correctedn4/CORRECTFLAIR_DE-IDENTIFIED_7530781.brainlab.nii.gz
+N4 bias correction saved: data/2021/DE-IDENTIFIED, 7530781.brainlab/correctedn4/CORRECTADC_DE-IDENTIFIED_7530781.brainlab.nii.gz
+Mask saved: data/2021/DE-IDENTIFIED, 7530781.brainlab/nifti_output/Raw/Final/MASK_DE-IDENTIFIED_7530781.brainlab.nii.gz
+Mask saved: data/2021/DE-IDENTIFIED, 7530781.brainlab/mask/MASK_DE-IDENTIFIED_7530781.brainlab.nii.gz
+Co-localization DE-IDENTIFIED_7530781.brainlab: T1 vs T2 | Pearson: 0.3407, Dice: 0.7236, Jaccard: 0.5670
+Co-localization DE-IDENTIFIED_7530781.brainlab: T1 vs ADC | Pearson: -0.2141, Dice: 0.2750, Jaccard: 0.1594
+Co-localization DE-IDENTIFIED_7530781.brainlab: T1 vs DWI | Pearson: 0.3314, Dice: 0.6265, Jaccard: 0.4561
+Co-localization DE-IDENTIFIED_7530781.brainlab: T1 vs FLAIR | Pearson: 0.5690, Dice: 0.8261, Jaccard: 0.7038

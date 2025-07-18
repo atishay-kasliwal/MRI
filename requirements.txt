@@ -1,0 +1,8 @@
+nibabel
+numpy
+matplotlib
+scipy
+SimpleITK
+scikit-image
+requests
+beautifulsoup4 
