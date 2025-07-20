@@ -4,7 +4,7 @@ import subprocess
 import time
 
 # Set your local data root
-DATA_ROOT = Path("/Users/atishaykasliwal/Desktop/mri/data/2021")
+DATA_ROOT = Path('/Volumes/Kasliwal V1.1/MRi Data V1.2/2024')
 
 # Delete all mask folders for a clean start
 print("Deleting all previous mask files...")
