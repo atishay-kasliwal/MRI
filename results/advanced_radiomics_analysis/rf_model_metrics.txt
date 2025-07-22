@@ -1,0 +1,2 @@
+Random Forest MAE: 0.198
+Random Forest R2: 0.976

@@ -1,0 +1,158 @@
+feature,perm_importance_mean
+90 days mRS,1.507513868852459
+original_shape_Flatness,0.04000298360655735
+original_shape_MinorAxisLength,0.033319377049180254
+Procedure time (min),0.023031049180327823
+Integrilin dosing (mg),0.019344098360655683
+original_shape_Maximum2DDiameterSlice,0.019058065573770443
+original_shape_Maximum2DDiameterColumn,0.01730806557377046
+Attempts#,0.006035999999999942
+original_shape_MajorAxisLength,0.005403836065573731
+Tandem occlusion,0.0009442950819671725
+original_shape_Maximum3DDiameter,0.0009240655737704495
+original_shape_Maximum2DDiameterRow,0.0008317704918032298
+Angioplasty,0.0006446557377048801
+Diabetes,0.00040826229508191816
+Balloon used?,0.000407245901639286
+Stent,0.00037639344262289096
+LOS,0.00037298360655732
+Days f/u,0.0003704262295081584
+original_glszm_GrayLevelNonUniformity,0.000325278688524544
+original_shape_Elongation,0.00030022950819665886
+CHF,0.0002706229508196101
+Time to Revasc (min),0.0002601967213114231
+Hemoglobin A1c,0.0002326229508196165
+Complications?,0.00023003278688518147
+original_shape_Sphericity,0.0002140327868852099
+Onset-to-puncture (min),0.0001755081967212413
+Discharge antithrombotics,0.0001691803278687898
+Baseline mRS,0.0001657704918032188
+CAD,0.0001520655737704546
+Heparin dosing,0.00015167213114747335
+original_ngtdm_Coarseness,0.00013708196721304856
+original_shape_SurfaceArea,0.00013672131147535183
+ADMIT NIH,0.0001066557377048638
+Etiology,7.34754098360213e-05
+Age,7.20655737704523e-05
+Pre-admission anti-thrombotics,5.859016393436889e-05
+AFIB,5.540983606552308e-05
+original_firstorder_TotalEnergy,4.855737704912988e-05
+original_glcm_MCC,4.685245901636659e-05
+original_shape_VoxelVolume,3.344262295076339e-05
+original_shape_MeshVolume,3.0491803278620554e-05
+Smoking hx,2.7704918032733784e-05
+Race,2.649180327863876e-05
+original_glcm_Id,2.360655737699835e-05
+original_shape_LeastAxisLength,2.2721311475348838e-05
+Decision based on:,2.255737704912608e-05
+Approach (fem/rad/other),2.1934426229452964e-05
+original_glrlm_RunLengthNonUniformity,1.6622950819622507e-05
+Year,1.5245901639304726e-05
+MRN,1.3803278688462317e-05
+original_glcm_Imc1,1.2622950819618507e-05
+Sex,1.2163934426168144e-05
+Vessel 1,1.140983606551238e-05
+original_glrlm_GrayLevelNonUniformity,1.1278688524540836e-05
+Technique (ADAPT/stentriever/solumbra/ot,1.1213114754049514e-05
+original_glszm_SmallAreaEmphasis,7.934426229472268e-06
+original_glcm_ClusterTendency,7.836065573718631e-06
+original_gldm_DependenceNonUniformity,7.4098360655194815e-06
+original_shape_SurfaceVolumeRatio,7.311475409776946e-06
+Hyper-lipidemia,6.983606557342536e-06
+original_glcm_ClusterProminence,6.918032786840112e-06
+original_glrlm_LongRunLowGrayLevelEmphasis,5.836065573716631e-06
+original_glcm_Idn,5.77049180323641e-06
+original_ngtdm_Contrast,5.213114754054615e-06
+IVTPA,5.180327868803402e-06
+original_gldm_LowGrayLevelEmphasis,5.180327868803402e-06
+original_glcm_Correlation,4.68852459011293e-06
+original_glszm_SizeZoneNonUniformityNormalized,4.22950819667367e-06
+original_firstorder_Entropy,3.409836065515481e-06
+original_glcm_DifferenceVariance,3.3442622950352607e-06
+Craniectomy,2.5573770491393864e-06
+Post-procedure CT,2.4262295081456385e-06
+original_firstorder_10Percentile,2.229508196660568e-06
+original_glrlm_ShortRunLowGrayLevelEmphasis,1.836065573723733e-06
+original_glrlm_LongRunHighGrayLevelEmphasis,1.7377049179811977e-06
+original_firstorder_Skewness,1.6393442622497646e-06
+original_glcm_Imc2,1.0819672130679693e-06
+Anesthesia,9.836065573254338e-07
+original_firstorder_Kurtosis,8.524590163427881e-07
+original_gldm_DependenceEntropy,7.868852458625675e-07
+original_firstorder_Median,6.22950819617607e-07
+original_glszm_LargeAreaLowGrayLevelEmphasis,3.278688524233075e-07
+Pre/intra-procedural anti-thrombotics,1.3114754093823677e-07
+IAtPA,3.278688520680362e-08
+original_glcm_DifferenceEntropy,0.0
+original_glcm_Idmn,0.0
+original_glcm_DifferenceAverage,0.0
+original_glcm_JointAverage,0.0
+original_glcm_Idm,0.0
+Complication required treatment?,0.0
+original_glcm_ClusterShade,0.0
+original_glcm_Autocorrelation,0.0
+original_firstorder_Variance,0.0
+original_firstorder_Uniformity,0.0
+Hemorrhagic transformation,0.0
+original_firstorder_RootMeanSquared,0.0
+original_firstorder_RobustMeanAbsoluteDeviation,0.0
+original_firstorder_Range,0.0
+original_firstorder_Minimum,0.0
+Distal embolization (yes/no?),0.0
+original_firstorder_Mean,0.0
+original_firstorder_MeanAbsoluteDeviation,0.0
+original_firstorder_Maximum,0.0
+original_glcm_JointEnergy,0.0
+original_firstorder_Energy,0.0
+original_firstorder_InterquartileRange,0.0
+Symptomatic ICH?,0.0
+original_glcm_JointEntropy,0.0
+original_glszm_SizeZoneNonUniformity,0.0
+original_glrlm_ShortRunEmphasis,0.0
+original_glrlm_ShortRunHighGrayLevelEmphasis,0.0
+original_glszm_GrayLevelNonUniformityNormalized,0.0
+original_glszm_GrayLevelVariance,0.0
+original_glszm_HighGrayLevelZoneEmphasis,0.0
+original_glszm_LargeAreaEmphasis,0.0
+original_glszm_LargeAreaHighGrayLevelEmphasis,0.0
+original_glszm_LowGrayLevelZoneEmphasis,0.0
+original_glszm_SmallAreaHighGrayLevelEmphasis,0.0
+original_glcm_MaximumProbability,0.0
+original_glszm_SmallAreaLowGrayLevelEmphasis,0.0
+original_glszm_ZoneEntropy,0.0
+original_glszm_ZonePercentage,0.0
+original_glszm_ZoneVariance,0.0
+original_ngtdm_Complexity,0.0
+original_ngtdm_Strength,0.0
+Hypertension,0.0
+Location,0.0
+original_glrlm_RunPercentage,0.0
+original_glrlm_RunLengthNonUniformityNormalized,0.0
+original_glrlm_LowGrayLevelRunEmphasis,0.0
+original_gldm_LargeDependenceHighGrayLevelEmphasis,0.0
+original_glcm_SumSquares,0.0
+original_gldm_DependenceVariance,0.0
+original_gldm_GrayLevelNonUniformity,0.0
+original_gldm_GrayLevelVariance,0.0
+original_glrlm_LongRunEmphasis,0.0
+original_glcm_SumAverage,0.0
+original_gldm_LargeDependenceEmphasis,0.0
+original_gldm_LargeDependenceLowGrayLevelEmphasis,0.0
+original_gldm_SmallDependenceLowGrayLevelEmphasis,0.0
+original_glrlm_GrayLevelNonUniformityNormalized,0.0
+original_glrlm_GrayLevelVariance,0.0
+original_glrlm_HighGrayLevelRunEmphasis,0.0
+original_ngtdm_Busyness,-1.9672131152947968e-07
+original_gldm_DependenceNonUniformityNormalized,-2.6229508202080256e-07
+original_glcm_InverseVariance,-3.2786885250102317e-07
+original_glcm_SumEntropy,-6.557377049576373e-07
+original_gldm_SmallDependenceEmphasis,-6.885245902199521e-07
+original_firstorder_90Percentile,-6.885245902310544e-07
+original_gldm_HighGrayLevelEmphasis,-1.6393442623496846e-06
+original_glcm_Contrast,-1.9344262295661884e-06
+original_gldm_SmallDependenceHighGrayLevelEmphasis,-2.7213114754509602e-06
+original_glrlm_RunEntropy,-3.8032786885744407e-06
+original_glrlm_RunVariance,-5.934426229559086e-06
+Stentriever used?,-7.672131147584694e-06
+Balloon guide used?,-8.819672131188395e-06
+Prior Stroke,-9.868852459071764e-06
