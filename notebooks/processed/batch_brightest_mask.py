@@ -1,7 +1,7 @@
 import sys
 from pathlib import Path
 import argparse
-from manual_masking import manual_generate_brightest_mask
+from manual_masking import manual_generate_mask_brightest
 
 parser = argparse.ArgumentParser(description='Batch generate brightest masks.')
 parser.add_argument('--data_root', type=str, required=True, help='Root directory for patient data')
@@ -24,4 +24,4 @@ for patient_dir in DATA_ROOT.iterdir():
     mask_dir.mkdir(exist_ok=True)
     for percentile in PERCENTILES:
         output_path = mask_dir / f"brightest_p{percentile}_mask_{patient_dir.name}.nii.gz"
-        manual_generate_brightest_mask(nii_path, percentile, output_path) 
+        manual_generate_mask_brightest(nii_path, percentile, output_path) 
