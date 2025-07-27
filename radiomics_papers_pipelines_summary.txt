@@ -1,0 +1,54 @@
+RADIOMICS PAPERS PIPELINES IMPLEMENTATION RESULTS
+================================================================================
+
+EXECUTIVE SUMMARY
+----------------------------------------
+Total Patients: 300
+Total Features: 140
+Pipelines Implemented: 5
+
+GILLIES PIPELINE RESULTS
+----------------------------------------
+Quality Metrics:
+  • completeness: 1.000
+  • consistency: 0.092
+  • reliability: 1.000
+Reproducibility Scores:
+  • Shape: 0.000
+  • First_Order: -0.000
+  • Texture: 0.000
+  • Higher_Order: -0.000
+
+AERTS PIPELINE RESULTS
+----------------------------------------
+Top Features Selected: 20
+Signature Score Range: -0.236 - 0.225
+Risk Groups: [150 150]
+
+KICKINGEREDER PIPELINE RESULTS
+----------------------------------------
+MGMT Prediction AUC: 0.487
+MGMT Prediction Accuracy: 0.667
+PFS Prediction CV AUC: 0.501 ± 0.062
+Clinical Integration Improvement: -0.019
+
+LIU PIPELINE RESULTS
+----------------------------------------
+Radiomics Only AUC: 0.464
+Combined Model AUC: 0.513
+Improvement: 0.048
+Response Rates by Risk Group:
+  • group_0: 0.373
+  • group_1: 0.400
+
+KUMAR PIPELINE RESULTS
+----------------------------------------
+ML Performance Across Targets:
+  • survival: 0.549 ± 0.034
+  • response: 0.469 ± 0.025
+  • molecular: 0.462 ± 0.065
+Clinical Translation Readiness:
+  • survival: Needs Improvement
+  • response: Needs Improvement
+  • molecular: Needs Improvement
+

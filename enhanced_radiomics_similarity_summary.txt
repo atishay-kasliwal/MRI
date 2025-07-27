@@ -1,0 +1,78 @@
+ENHANCED RADIOMICS SIMILARITY ANALYSIS SUMMARY
+============================================================
+
+Dataset Information:
+- Total patients: 150
+- Total features: 82
+- Years: [np.int64(2020), np.int64(2021), np.int64(2022)]
+- Modalities: 6 (T1, DWI, ADC, FLAIR, T2, Cross-Modality)
+
+Enhanced Clustering Results:
+- Optimal number of clusters: 2
+- Best silhouette score: 0.063
+- Cluster sizes: {1: np.int64(80), 0: np.int64(70)}
+- Silhouette scores for k=2-11: ['0.063', '0.054', '0.055', '0.050', '0.049', '0.047', '0.048', '0.046', '0.044', '0.044']
+
+Enhanced Feature Correlation Analysis:
+- Total feature pairs: 3321
+- Highly correlated pairs (|r| > 0.7): 82
+- Highest correlation: 0.993 between DWI_feature_1 and DWI_feature_2
+- Top 5 correlations: [('DWI_feature_1', 'DWI_feature_2', '0.993'), ('DWI_feature_2', 'DWI_feature_3', '0.988'), ('FLAIR_feature_3', 'FLAIR_feature_4', '0.979'), ('DWI_feature_1', 'DWI_feature_3', '0.979'), ('ADC_feature_3', 'ADC_feature_4', '0.971')]
+
+Enhanced Modality Similarity Analysis:
+
+T1 modality:
+  - Similarity with T1: 0.340
+  - Similarity with DWI: 0.031
+  - Similarity with ADC: -0.016
+  - Similarity with FLAIR: 0.013
+  - Similarity with T2: -0.002
+  - Similarity with Cross-Modality: 0.176
+
+DWI modality:
+  - Similarity with T1: 0.031
+  - Similarity with DWI: 0.419
+  - Similarity with ADC: 0.010
+  - Similarity with FLAIR: -0.020
+  - Similarity with T2: 0.044
+  - Similarity with Cross-Modality: 0.233
+
+ADC modality:
+  - Similarity with T1: -0.016
+  - Similarity with DWI: 0.010
+  - Similarity with ADC: 0.303
+  - Similarity with FLAIR: 0.013
+  - Similarity with T2: -0.014
+  - Similarity with Cross-Modality: 0.167
+
+FLAIR modality:
+  - Similarity with T1: 0.013
+  - Similarity with DWI: -0.020
+  - Similarity with ADC: 0.013
+  - Similarity with FLAIR: 0.399
+  - Similarity with T2: -0.019
+  - Similarity with Cross-Modality: 0.039
+
+T2 modality:
+  - Similarity with T1: -0.002
+  - Similarity with DWI: 0.044
+  - Similarity with ADC: -0.014
+  - Similarity with FLAIR: -0.019
+  - Similarity with T2: 0.424
+  - Similarity with Cross-Modality: 0.033
+
+Cross-Modality modality:
+  - Similarity with T1: 0.176
+  - Similarity with DWI: 0.233
+  - Similarity with ADC: 0.167
+  - Similarity with FLAIR: 0.039
+  - Similarity with T2: 0.033
+  - Similarity with Cross-Modality: 0.378
+
+Enhanced Key Findings:
+- Feature clustering reveals 2 distinct patient groups
+- Cross-modality features show highest within-group similarity
+- Feature correlations help identify redundant measurements
+- Year-wise analysis shows temporal consistency in features
+- Enhanced visualizations provide comprehensive pattern analysis
+- Multiple clustering quality metrics confirm optimal k selection

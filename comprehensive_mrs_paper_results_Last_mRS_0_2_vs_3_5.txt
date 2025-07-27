@@ -1,0 +1,43 @@
+=== COMPREHENSIVE MRS-BASED PAPER IMPLEMENTATION RESULTS: Last_mRS_0_2_vs_3_5 ===
+
+This implementation follows the original meningioma paper methodology
+but uses mRS 0-2 vs 3-5 as the target variable instead of Ki-67.
+Synthetic radiomics features were created to demonstrate the methodology.
+
+Total patients: 47
+Good outcome (mRS 0-2): 39
+Poor outcome (mRS 3-5): 37
+Selected features: 21
+
+DISCOVERY COHORT:
+AUC: 1.000
+Sensitivity: 1.000
+Specificity: 1.000
+
+REPLICATION COHORT:
+AUC: 0.444
+Sensitivity: 0.333
+Specificity: 0.667
+
+SELECTED FEATURES:
+1. T1_feature_1
+2. T1_feature_3
+3. T1_feature_5
+4. T1_feature_7
+5. T1_feature_8
+6. T1_feature_10
+7. DWI_feature_2
+8. ADC_feature_2
+9. ADC_feature_3
+10. ADC_feature_5
+11. cross_modality_feature_2
+12. cross_modality_feature_3
+13. cross_modality_feature_4
+14. Sex
+15. Hypertension
+16. CHF
+17. CAD
+18. Prior Stroke
+19. Smoking hx
+20. ADMIT NIH
+21. IVTPA

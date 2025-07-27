@@ -1,0 +1,56 @@
+=== ENHANCED COMPREHENSIVE MRS IMPLEMENTATION RESULTS: Last_mRS_0_2_vs_3_5 ===
+
+This implementation uses 80/20 train/test split and includes radiomics feature prediction.
+Uses comprehensive clinical dataset with synthetic radiomics features.
+
+Total patients: 47
+Good outcome (mRS 0-2): 39
+Poor outcome (mRS 3-5): 37
+Selected features: 21
+
+TRAINING SET (80%):
+AUC: 1.000
+Sensitivity: 1.000
+Specificity: 1.000
+
+TEST SET (20%):
+AUC: 0.760
+Sensitivity: 0.600
+Specificity: 1.000
+
+SELECTED FEATURES:
+1. T1_enhanced_1
+2. T1_enhanced_5
+3. T1_enhanced_8
+4. DWI_enhanced_1
+5. DWI_enhanced_12
+6. DWI_enhanced_13
+7. ADC_enhanced_4
+8. ADC_enhanced_8
+9. FLAIR_enhanced_3
+10. FLAIR_enhanced_5
+11. FLAIR_enhanced_6
+12. FLAIR_enhanced_7
+13. T2_enhanced_2
+14. cross_modality_enhanced_1
+15. cross_modality_enhanced_2
+16. cross_modality_enhanced_4
+17. Sex
+18. CHF
+19. CAD
+20. Hemoglobin A1c
+21. Prior Stroke
+
+RADIOMICS FEATURE PREDICTION RESULTS:
+T1_enhanced_1: R² = 0.360, MSE = 330.860
+T1_enhanced_5: R² = -0.921, MSE = 203.253
+T1_enhanced_8: R² = -0.352, MSE = 421.295
+DWI_enhanced_1: R² = 0.422, MSE = 90.381
+DWI_enhanced_12: R² = -0.212, MSE = 250.133
+DWI_enhanced_13: R² = 0.080, MSE = 96.376
+ADC_enhanced_4: R² = -0.488, MSE = 1311.085
+ADC_enhanced_8: R² = -0.437, MSE = 857.283
+FLAIR_enhanced_3: R² = -0.031, MSE = 138.025
+FLAIR_enhanced_5: R² = -0.216, MSE = 348.370
+FLAIR_enhanced_6: R² = -0.668, MSE = 1205.583
+FLAIR_enhanced_7: R² = -0.510, MSE = 518.968

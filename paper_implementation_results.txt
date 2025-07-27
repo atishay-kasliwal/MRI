@@ -1,0 +1,38 @@
+=== PAPER IMPLEMENTATION RESULTS ===
+
+Total patients: 82
+Good outcome (mRS 0-2): 41
+Poor outcome (mRS 3-6): 41
+Selected features: 20
+
+DISCOVERY COHORT:
+AUC: 1.000
+Sensitivity: 1.000
+Specificity: 1.000
+
+REPLICATION COHORT:
+AUC: 0.891
+Sensitivity: 0.700
+Specificity: 0.909
+
+SELECTED FEATURES:
+1. T1_mean
+2. T1_min
+3. T1_median
+4. T1_skewness
+5. T1_surface_area
+6. T1_glcm_homogeneity
+7. DWI_skewness
+8. DWI_entropy
+9. DWI_surface_area
+10. ADC_max
+11. ADC_energy
+12. ADC_surface_area
+13. FLAIR_skewness
+14. FLAIR_kurtosis
+15. FLAIR_surface_area
+16. FLAIR_glcm_energy
+17. T2_min
+18. T2_entropy
+19. T2_surface_area
+20. cross_modality_entropy_mean

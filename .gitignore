@@ -1,5 +1,5 @@
-# PDF files (generated reports)
-*.pdf
+# PDF files (generated reports) - ALLOWING FOR RESULTS
+# *.pdf
 
 # Python cache files
 __pycache__/
@@ -88,8 +88,8 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 
-# Large data files
-*.csv
+# Large data files (ALLOWING CSV FOR RESULTS)
+# *.csv
 *.nii.gz
 *.nii
 *.dcm
@@ -109,16 +109,16 @@ catboost_info/
 *.tmp
 *.temp
 
-# Image files (generated plots)
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.svg
+# Image files (generated plots) - ALLOWING FOR RESULTS
+# *.png
+# *.jpg
+# *.jpeg
+# *.gif
+# *.svg
 
-# Text files with results
-*.txt
-*.md
+# Text files with results - ALLOWING FOR RESULTS
+# *.txt
+# *.md
 !README.md
 
 # Excel files

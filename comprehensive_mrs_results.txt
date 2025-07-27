@@ -1,0 +1,33 @@
+=== COMPREHENSIVE MRS ANALYSIS RESULTS ===
+
+Total clinical patients: 76
+Synthetic targets created: 4
+
+Synthetic_mRS_Age_NIHSS:
+  Patients: 71
+  AUC: 0.914
+  Sensitivity: 0.889
+  Specificity: 0.667
+  Selected features: 6
+
+Synthetic_mRS_Comorbidities:
+  Patients: 71
+  AUC: 1.000
+  Sensitivity: 1.000
+  Specificity: 1.000
+  Selected features: 8
+
+Synthetic_mRS_Treatment:
+  Patients: 71
+  AUC: 1.000
+  Sensitivity: 1.000
+  Specificity: 1.000
+  Selected features: 8
+
+Synthetic_mRS_Multi_Factor:
+  Patients: 71
+  AUC: 1.000
+  Sensitivity: 1.000
+  Specificity: 1.000
+  Selected features: 11
+

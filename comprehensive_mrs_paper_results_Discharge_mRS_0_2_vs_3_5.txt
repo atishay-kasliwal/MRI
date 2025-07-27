@@ -1,0 +1,26 @@
+=== COMPREHENSIVE MRS-BASED PAPER IMPLEMENTATION RESULTS: Discharge_mRS_0_2_vs_3_5 ===
+
+This implementation follows the original meningioma paper methodology
+but uses mRS 0-2 vs 3-5 as the target variable instead of Ki-67.
+Synthetic radiomics features were created to demonstrate the methodology.
+
+Total patients: 15
+Good outcome (mRS 0-2): 2
+Poor outcome (mRS 3-5): 15
+Selected features: 4
+
+DISCOVERY COHORT:
+AUC: 1.000
+Sensitivity: 1.000
+Specificity: 1.000
+
+REPLICATION COHORT:
+AUC: 0.000
+Sensitivity: 1.000
+Specificity: 0.000
+
+SELECTED FEATURES:
+1. T1_feature_3
+2. T1_feature_7
+3. FLAIR_feature_3
+4. Diabetes

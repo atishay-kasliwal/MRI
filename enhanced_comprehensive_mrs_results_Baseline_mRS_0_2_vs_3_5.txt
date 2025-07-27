@@ -1,0 +1,29 @@
+=== ENHANCED COMPREHENSIVE MRS IMPLEMENTATION RESULTS: Baseline_mRS_0_2_vs_3_5 ===
+
+This implementation uses 80/20 train/test split and includes radiomics feature prediction.
+Uses comprehensive clinical dataset with synthetic radiomics features.
+
+Total patients: 47
+Good outcome (mRS 0-2): 38
+Poor outcome (mRS 3-5): 12
+Selected features: 4
+
+TRAINING SET (80%):
+AUC: 1.000
+Sensitivity: 1.000
+Specificity: 1.000
+
+TEST SET (20%):
+AUC: 1.000
+Sensitivity: 1.000
+Specificity: 1.000
+
+SELECTED FEATURES:
+1. ADC_enhanced_8
+2. cross_modality_enhanced_1
+3. Age
+4. Baseline mRS
+
+RADIOMICS FEATURE PREDICTION RESULTS:
+ADC_enhanced_8: R² = -0.079, MSE = 1096.807
+cross_modality_enhanced_1: R² = 0.937, MSE = 16.176

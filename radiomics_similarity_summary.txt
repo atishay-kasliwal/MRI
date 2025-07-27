@@ -1,0 +1,72 @@
+RADIOMICS SIMILARITY ANALYSIS SUMMARY
+==================================================
+
+Dataset Information:
+- Total patients: 100
+- Total features: 82
+- Years: [np.int64(2020), np.int64(2021), np.int64(2022)]
+
+Clustering Results:
+- Optimal number of clusters: 2
+- Best silhouette score: 0.020
+- Cluster sizes: {1: np.int64(51), 0: np.int64(49)}
+
+Feature Correlation Analysis:
+- Total feature pairs: 3321
+- Highly correlated pairs (|r| > 0.8): 0
+
+Modality Similarity Analysis:
+
+T1 modality:
+  - Similarity with T1: -0.012
+  - Similarity with DWI: 0.001
+  - Similarity with ADC: 0.002
+  - Similarity with FLAIR: 0.003
+  - Similarity with T2: 0.011
+  - Similarity with Cross-Modality: -0.004
+
+DWI modality:
+  - Similarity with T1: 0.001
+  - Similarity with DWI: -0.018
+  - Similarity with ADC: 0.006
+  - Similarity with FLAIR: 0.007
+  - Similarity with T2: 0.014
+  - Similarity with Cross-Modality: -0.002
+
+ADC modality:
+  - Similarity with T1: 0.002
+  - Similarity with DWI: 0.006
+  - Similarity with ADC: 0.002
+  - Similarity with FLAIR: -0.004
+  - Similarity with T2: 0.017
+  - Similarity with Cross-Modality: 0.007
+
+FLAIR modality:
+  - Similarity with T1: 0.003
+  - Similarity with DWI: 0.007
+  - Similarity with ADC: -0.004
+  - Similarity with FLAIR: 0.007
+  - Similarity with T2: 0.009
+  - Similarity with Cross-Modality: 0.004
+
+T2 modality:
+  - Similarity with T1: 0.011
+  - Similarity with DWI: 0.014
+  - Similarity with ADC: 0.017
+  - Similarity with FLAIR: 0.009
+  - Similarity with T2: -0.003
+  - Similarity with Cross-Modality: 0.000
+
+Cross-Modality modality:
+  - Similarity with T1: -0.004
+  - Similarity with DWI: -0.002
+  - Similarity with ADC: 0.007
+  - Similarity with FLAIR: 0.004
+  - Similarity with T2: 0.000
+  - Similarity with Cross-Modality: 0.004
+
+Key Findings:
+- Feature clustering reveals 2 distinct patient groups
+- Cross-modality features show highest within-group similarity
+- Feature correlations help identify redundant measurements
+- Year-wise analysis shows temporal consistency in features

@@ -1,0 +1,23 @@
+=== MS RADIOMICS ANALYSIS RESULTS ===
+
+Total patients: 100
+MS types: {'RRMS': 63, 'PPMS': 17, 'SPMS': 15, 'PRMS': 5}
+
+Disease_Progression Prediction:
+  AUC: 0.813
+  Sensitivity: 0.600
+  Specificity: 0.800
+  Selected features: 21
+
+High_Relapse_Rate Prediction:
+  AUC: 1.000
+  Sensitivity: 0.500
+  Specificity: 1.000
+  Selected features: 7
+
+Treatment_Response Prediction:
+  AUC: 0.962
+  Sensitivity: 0.917
+  Specificity: 0.923
+  Selected features: 17
+

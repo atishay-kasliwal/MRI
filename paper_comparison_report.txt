@@ -1,0 +1,130 @@
+=== PAPER COMPARISON ANALYSIS REPORT ===
+
+ORIGINAL PAPER COMPONENTS:
+
+Dataset:
+  Total patients: 306 patients
+  Discovery cohort: 230 patients (75%)
+  Replication cohort: 76 patients (25%)
+  Target: Ki-67 < 5% vs ≥ 5%
+  Tumor type: WHO Grade I meningiomas
+  Time period: 2012-2018
+
+Imaging:
+  MRI sequences: 7 total sequences
+  Sequences: ['T1-weighted', 'T1+C (volumetric)', 'T2-weighted', 'T2-FLAIR', 'DWI b0', 'DWI b1000', 'ADC map']
+  Preprocessing: ['Coregistration', 'Resampling to 1x1x1mm³', 'N4ITK bias correction', 'Intensity scaling [0,255]']
+  Segmentation: ['ITK-SNAP v3.8.0', 'Enhancing tumor on T1+C', 'Peritumoral edema on T2-FLAIR']
+
+Radiomics:
+  Total features: 2520 radiomic features
+  Morphologic features: 29 features
+  Feature categories: ['Volume', 'Shape', 'Size', 'Histogram', 'Texture']
+  Normalization: Z-scoring
+  Software: CaPTk v.1.8.1
+
+Machine Learning:
+  Feature selection: LASSO
+  Classifier: Linear SVM
+  Cross-validation: Nested 10-fold CV (outer) + 3-fold CV (inner)
+  Hyperparameter tuning: Bayesian optimization for SVM C parameter
+  Model selection: Least overfitting model closest to average performance
+
+Performance:
+  Discovery cohort: AUC: 0.84 (95% CI: 0.78-0.90), Sensitivity: 84.1%, Specificity: 73.3%
+  Replication cohort: AUC: 0.83 (95% CI: 0.73-0.94), Sensitivity: 82.6%, Specificity: 85.5%
+  Skull base tumors: AUC: 0.86
+  Non-skull base tumors: AUC: 0.83
+  Selected features: 60 features in final model
+
+Feature Distribution:
+  DWI (b0, b1000, ADC): 27 features
+  T1+C: 13 features
+  T2-FLAIR: 9 features
+  T1-weighted: 4 features
+  T2-weighted: 3 features
+  Morphologic: 4 features
+
+Clinical Variables:
+  Demographics: ['Age', 'Sex', 'Tumor laterality', 'Skull base vs non-skull base']
+  Tumor characteristics: ['Volume', 'Peritumoral edema volume', 'Location']
+  Outcomes: ['Ki-67 proliferation index', 'Tumor recurrence']
+
+OUR IMPLEMENTATION:
+
+Dataset:
+  Total patients: 82 matched patients (radiomics + clinical)
+  Discovery cohort: 61 patients (75%)
+  Replication cohort: 21 patients (25%)
+  Target: Synthetic binary outcome (T1 mean + cross-modality entropy)
+  Tumor type: Stroke patients (not meningiomas)
+  Time period: 2020-2022
+
+Imaging:
+  MRI sequences: 5 sequences
+  Sequences: ['T1', 'DWI', 'ADC', 'FLAIR', 'T2']
+  Preprocessing: ['N4 bias correction', 'Basic preprocessing']
+  Segmentation: ['Tumor masks applied']
+
+Radiomics:
+  Total features: ~107 patient-level features
+  Feature categories: ['First-order statistics', 'Shape features', 'Texture features', 'Cross-modality features']
+  Normalization: StandardScaler
+  Software: Custom implementation (numpy, scipy, SimpleITK)
+
+Machine Learning:
+  Feature selection: LASSO
+  Classifier: Linear SVM
+  Cross-validation: 5-fold CV for hyperparameter tuning
+  Hyperparameter tuning: Grid search for SVM C parameter
+  Model selection: Best C based on CV scores
+
+Performance:
+  Discovery cohort: AUC: 1.000, Sensitivity: 1.000, Specificity: 1.000
+  Replication cohort: AUC: 0.891, Sensitivity: 0.857, Specificity: 0.917
+  Selected features: 20 features in final model
+
+Additional Analyses:
+  MS Analysis: Synthetic MS dataset with 100 patients
+  mRS Analysis: Comprehensive mRS analysis with 76 clinical patients
+  Synthetic targets: Multiple synthetic outcomes for demonstration
+
+MISSING COMPONENTS:
+
+Critical Missing:
+  - Ki-67 proliferation index as target variable
+  - Comprehensive radiomics feature extraction (2520 features)
+
+Important Missing:
+  - Full 7-sequence MP-MRI (missing T1+C volumetric)
+  - Nested cross-validation (10-fold outer + 3-fold inner)
+  - Bayesian optimization for hyperparameter tuning
+  - Dedicated morphologic feature analysis (29 features)
+
+Nice to Have:
+  - Skull base vs non-skull base subgroup analysis
+  - Peritumoral edema analysis
+  - Detailed feature distribution by MRI sequence
+
+Implemented Differently:
+  - Patient-level vs tumor-level analysis
+  - Stroke vs meningioma pathology
+  - Synthetic targets vs real Ki-67
+  - Custom radiomics vs CaPTk software
+
+RECOMMENDATIONS:
+
+High Priority:
+  - Implement Ki-67 proliferation index as target variable
+  - Implement Comprehensive radiomics feature extraction (2520 features)
+
+Medium Priority:
+  - Add Full 7-sequence MP-MRI (missing T1+C volumetric)
+  - Add Nested cross-validation (10-fold outer + 3-fold inner)
+  - Add Bayesian optimization for hyperparameter tuning
+  - Add Dedicated morphologic feature analysis (29 features)
+
+Low Priority:
+  - Consider Skull base vs non-skull base subgroup analysis
+  - Consider Peritumoral edema analysis
+  - Consider Detailed feature distribution by MRI sequence

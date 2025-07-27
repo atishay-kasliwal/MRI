@@ -1,0 +1,23 @@
+=== COMPREHENSIVE MRS-BASED PAPER IMPLEMENTATION RESULTS: Baseline_mRS_0_2_vs_3_5 ===
+
+This implementation follows the original meningioma paper methodology
+but uses mRS 0-2 vs 3-5 as the target variable instead of Ki-67.
+Synthetic radiomics features were created to demonstrate the methodology.
+
+Total patients: 47
+Good outcome (mRS 0-2): 38
+Poor outcome (mRS 3-5): 12
+Selected features: 1
+
+DISCOVERY COHORT:
+AUC: 1.000
+Sensitivity: 1.000
+Specificity: 0.964
+
+REPLICATION COHORT:
+AUC: 1.000
+Sensitivity: 1.000
+Specificity: 0.889
+
+SELECTED FEATURES:
+1. Baseline mRS

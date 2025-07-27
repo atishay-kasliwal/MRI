@@ -1,0 +1,49 @@
+=== ENHANCED COMPREHENSIVE MRS IMPLEMENTATION RESULTS: 90_days_mRS_0_2_vs_3_5 ===
+
+This implementation uses 80/20 train/test split and includes radiomics feature prediction.
+Uses comprehensive clinical dataset with synthetic radiomics features.
+
+Total patients: 44
+Good outcome (mRS 0-2): 37
+Poor outcome (mRS 3-5): 36
+Selected features: 14
+
+TRAINING SET (80%):
+AUC: 1.000
+Sensitivity: 1.000
+Specificity: 1.000
+
+TEST SET (20%):
+AUC: 0.900
+Sensitivity: 1.000
+Specificity: 0.500
+
+SELECTED FEATURES:
+1. T1_enhanced_8
+2. T1_enhanced_9
+3. T1_enhanced_18
+4. T1_enhanced_19
+5. DWI_enhanced_4
+6. DWI_enhanced_5
+7. DWI_enhanced_9
+8. ADC_enhanced_4
+9. ADC_enhanced_11
+10. T2_enhanced_3
+11. T2_enhanced_6
+12. T2_enhanced_8
+13. cross_modality_enhanced_1
+14. Baseline mRS
+
+RADIOMICS FEATURE PREDICTION RESULTS:
+T1_enhanced_8: R² = -1.287, MSE = 243.230
+T1_enhanced_9: R² = -0.239, MSE = 651.622
+T1_enhanced_18: R² = -0.125, MSE = 366.417
+T1_enhanced_19: R² = -0.287, MSE = 194.248
+DWI_enhanced_4: R² = -0.010, MSE = 135.467
+DWI_enhanced_5: R² = -0.069, MSE = 163.782
+DWI_enhanced_9: R² = -0.258, MSE = 160.099
+ADC_enhanced_4: R² = -0.706, MSE = 685.372
+ADC_enhanced_11: R² = -0.228, MSE = 514.058
+T2_enhanced_3: R² = -0.209, MSE = 519.331
+T2_enhanced_6: R² = -0.358, MSE = 244.914
+T2_enhanced_8: R² = -0.206, MSE = 478.097

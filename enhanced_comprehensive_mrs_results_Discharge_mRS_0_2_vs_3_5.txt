@@ -1,0 +1,34 @@
+=== ENHANCED COMPREHENSIVE MRS IMPLEMENTATION RESULTS: Discharge_mRS_0_2_vs_3_5 ===
+
+This implementation uses 80/20 train/test split and includes radiomics feature prediction.
+Uses comprehensive clinical dataset with synthetic radiomics features.
+
+Total patients: 15
+Good outcome (mRS 0-2): 2
+Poor outcome (mRS 3-5): 15
+Selected features: 6
+
+TRAINING SET (80%):
+AUC: 1.000
+Sensitivity: 1.000
+Specificity: 1.000
+
+TEST SET (20%):
+AUC: nan
+Sensitivity: 0.667
+Specificity: 0.000
+
+SELECTED FEATURES:
+1. T1_enhanced_2
+2. DWI_enhanced_8
+3. DWI_enhanced_9
+4. T2_enhanced_1
+5. cross_modality_enhanced_1
+6. ADMIT NIH
+
+RADIOMICS FEATURE PREDICTION RESULTS:
+T1_enhanced_2: R² = 0.140, MSE = 141.859
+DWI_enhanced_8: R² = -1.725, MSE = 199.667
+DWI_enhanced_9: R² = -4.761, MSE = 401.050
+T2_enhanced_1: R² = 0.060, MSE = 52.933
+cross_modality_enhanced_1: R² = 0.726, MSE = 69.444
