@@ -1,0 +1,18 @@
+Metric,Value
+Total Patients,132
+Valid mRS Data,128
+Good Outcome (mRS 0-2),75
+Poor Outcome (mRS 3-5),53
+Total Radiomics Features,535
+T1 Features,107
+T2 Features,107
+FLAIR Features,107
+DWI Features,107
+ADC Features,107
+Best F1 Score,0.75
+Best Model,Random Forest
+Optimal Feature Set,All Features
+Average F1 Score,0.6602374603975392
+Training Set Size,102
+Testing Set Size,26
+Feature-to-Sample Ratio,4.2:1

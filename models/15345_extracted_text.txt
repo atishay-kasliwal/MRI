@@ -1,0 +1,639 @@
+
+--- Page 1 ---
+RESEARCH—LABORATORY
+Machine Learning Using Multiparametric Magnetic
+Resonance Imaging Radiomic Feature Analysis to
+Predict Ki-67 in World Health Organization Grade I
+MeningiomasOmadityaKhanna,MD‡∗
+AnahitaFathiKazerooni,
+PhD§¶∗
+ChristopherJ.Farrell,MD‡
+MichaelP.Baldassari,BS‡
+TylerD.Alexander,MS‡
+MichaelKarsy,MD,PhD,MSc‡
+BenjaminA.Greenberger,MD||
+JoseA.Garcia,MSc§¶
+ChiharuSako,PhD§¶
+JamesJ.Evans,MD‡
+KevinD.Judy,MD‡
+DavidW.Andrews,MD‡
+AdamE.Flanders,MD#
+AshwiniD.Sharan,MD‡
+AdamP.Dicker,MD,PhD||
+WenyinShi,MD,PhD||
+ChristosDavatzikos,PhD§¶
+‡Department of Neurological Surg-
+ery, Thomas Jefferson University
+Hospital, Philadelphia, Pennsylvania,
+USA;§Center for Biomedical Image
+Computing and Analytics, Perelman
+School of Medicine, University of
+Pennsylvania, Philadelphia, Pennsy-
+lvania, USA;¶Department of Rad-
+iology,PerelmanSchoolofMedicine,
+University of Pennsylvania, Philade-
+lphia, Pennsylvania, USA;||Depart-
+ment of Radiation Oncology, Sidney
+Kimmel Medical College & Cancer
+Center, Thomas Jefferson University,
+Philadelphia, Pennsylvania, USA;
+#Department of Radiology, Thomas
+Jefferson University Hospital,
+Philadelphia,Pennsylvania,USA
+∗OmadityaKhannaandAnahitaFathi
+Kazeroonicontributedequallytothis
+work.
+Correspondence:
+ChristosDavatzikos,PhD,
+PerelmanSchoolofMedicine,
+UniversityofPennsylvania,
+RichardsBuilding,7thFloor,
+3700HamiltonWalk,
+Philadelphia,PA19104,USA.
+Email:christos.davatzikos@
+pennmedicine.upenn.edu
+Received, March18,2021.
+Accepted, June9,2021.
+C/circlecopyrtCongressofNeurologicalSurgeons
+2021.Allrightsreserved.Forpermissions,
+pleasee-mail:
+journals.permissions@oup.comBACKGROUND: Although World Health Organization (WHO) grade I meningiomas are
+considered “benign”tumors, an elevated Ki-67 is one crucial factor that has been shown
+to influence tumor behavior and clinical outcomes. The ability to preoperatively discern
+Ki-67wouldconfertheabilitytoguidesurgicalstrategy.
+OBJECTIVE: Inthisstudy, wedevelopamachinelearning(ML)algorithmusingradiomic
+featureanalysistopredictKi-67inWHOgradeImeningiomas.
+METHODS: A retrospective analysis was performed for a cohort of 306 patients who
+underwent surgical resection of WHO grade I meningiomas. Preoperative magnetic
+resonance imaging was used to perform radiomic feature extraction followed by ML
+modeling using least absolute shrinkage and selection operator wrapped with support
+vectormachinethroughnestedcross-validationonadiscoverycohort(n =230),tostratify
+tumorsbasedonKi-67 <5%and ≥5%.Thefinalmodelwasindependentlytestedonarepli-
+cationcohort(n =76).
+RESULTS: An area under the receiver operating curve (AUC) of 0.84 (95% CI: 0.78-0.90)
+with a sensitivity of 84.1% and specificity of 73.3% was achieved in the discovery cohort.
+When this model was applied to the replication cohort, a similar high performance was
+achieved, with an AUC of 0.83 (95% CI: 0.73-0.94), sensitivity and specificity of 82.6% and
+85.5%, respectively. The model demonstrated similar efficacy when applied to skull base
+andnonskullbasetumors.
+CONCLUSION: OurproposedradiomicfeatureanalysiscanbeusedtostratifyWHOgrade
+ImeningiomasbasedonKi-67withexcellentaccuracyandcanbeappliedtoskullbaseand
+nonskullbasetumorswithsimilarperformanceachieved.
+KEYWORDS: Artificialintelligence,Machinelearning,Meningioma,Radiomics
+Neurosurgery0:1–9,2021 https://doi.org/10.1093/neuros/nyab307 www.neurosurgery-online.com
+Under the 2016 WHO classification
+guidelines, grade I tumors account for
+80% of all resected meningiomas, and
+are generally associated with favorable rates of
+local control with surgery alone.1However, up
+ABBREVIATIONS: ADC, apparent diffusion coeffi-
+cient;CV,cross-validation; LASSO,least absolute
+shrinkage and selection operator; ML,machine
+learning; MP,multiparametric; SVM,supportvector
+machine; T1w,T1-weighted; T2w,T2-weighted;
+WHO,WorldHealthOrganization
+Supplemental digital content is available for this article at
+www.neurosurgery-online.com .to 30% of grade I tumors recur on long-
+term follow-up,2which is influenced by several
+factors, such as histopathology,3,4degree of
+resection (Simpson grade),4-6and Ki-67/MIB-
+1 proliferation index.7,8As such, the ability
+to preoperatively prognosticate which tumors
+behave more aggressively would confer the ability
+to guide surgical strategy.
+The Ki-67 proliferation index has been used
+as a surrogate marker of rapid growth and
+increased aggressiveness across a wide range of
+neoplasms.9-11Although its utility pertaining
+to meningioma remains controversial, several
+studies have shown that higher Ki-67 values
+correlate with increased risk of recurrence,12-14
+NEURO SURGERY VOLUME0 | NUMBER0 | 2021 | 1Downloaded from https://academic.oup.com/neurosurgery/advance-article/doi/10.1093/neuros/nyab307/6359920 by Thomas Jefferson University user on 28 September 2021
+
+
+--- Page 2 ---
+KHANNAETAL
+FIGURE1. A schematic of the process workflow used to develop a machine learning model to predict Ki-67 proliferative index in WHO grade I meningioma.
+and serve as a predictor of time to recurrence.15One recent
+study reported that in WHO grade I meningiomas with Ki-67%
+>4.5%, patients with gross total resection incurred similar risk
+of recurrence compared to those with subtotal resection, and this
+cutoff represented an independent risk of recurrence regardless
+of extent of resection.4Our institution’s case series of 299 surgi-
+cally resected WHO grade I meningiomas revealed that a Ki-67 of
+≥5% was associated with an increased risk of local recurrence.8
+The current WHO guidelines do not utilize Ki-67 as a criteria
+for meningioma classification, despite the fact that there is a wide
+overlap of Ki-67 values that may be found between grade I, II,
+and III tumors, and, as such, the clinical behavior of menin-
+giomas is not entirely captured by its designated grade, and there
+is a need to elucidate additional factors that portend increased
+aggressiveness.16,17
+Radiomic analysis utilizing multiparametric magnetic
+resonance imaging (MP-MRI) can be used to render high-
+throughput computational feature extraction, such as tumor
+size, shape, feature intensity, and texture patterns,18-20which
+can subsequently be studied by image classification machine
+learning algorithms to develop models that can predict tumor
+pathology21,22and model outcomes,23all of which serve to
+optimize patient-specific treatment paradigms. Previous studies
+have investigated using machine learning to predict meningioma
+grade,24,25with particular emphasis placed on discerning between
+low and high-grade tumors.26,27Morin et al developed a complex
+model incorporating clinical, radiologic, and radiomic features
+to stratify meningiomas based on predicted clinical outcomes
+independent of tumor grade.28There have been no studies to
+date, however, which apply radiomics-based machine learning
+techniques to assess individual tumor biomarkers that may help
+prognosticate the heterogenous clinical behavior amongst grade
+I meningiomas, which represent the vast majority of tumors
+encountered in clinical practice.
+In this study, we use standard preoperative MP-MRI to
+perform radiomic feature extraction and develop a machine
+learning model to predict the Ki-67 proliferative index in WHOgrade I meningiomas. This is the largest meningioma radiomics
+machine learning study to date, and the only one to focus
+exclusively on grade I tumors, which have been shown to have
+greater molecular and radiographic homogeneity than grade II/III
+tumors, and provides the best opportunity to correlate sampled
+tumors’ Ki-67 seen on pathology as a surrogate for the entire
+lesion seen on MRI.29The ability to predict Ki-67 preoperatively
+provides the surgeon with a simple yet important parameter that
+can be used to guide surgical strategy.
+METHODS
+SourceofData
+The study protocol was approved by our Institutional Review Board,
+under a waiver of informed consent. A retrospective analysis was
+performed of all patients (n =376) who underwent surgical resection
+of WHO grade I meningioma at our institution between 2012 and
+2018. Pathology reports were reviewed and patients who met criteria
+for of grade I meningioma using the 2016 World Health Organi-
+zation Classification of T umors of the Central Nervous System were
+included in the present study.30Patients’ electronical medical records
+were accessed, and relevant clinical data was collected. Eligible patients’
+surgical pathology reports were reviewed, and the Ki-67 proliferative
+index was recorded. In all patients, the Ki-67 was quantified using Aperio
+IHC image analysis software (Apeiro Technologies Inc, Cumming,
+Georgia).
+Preoperative MRI studies performed at our hospital on 3 different
+scanners, as well as from outside hospital prior to transfer to our insti-
+tution, closest to the date of surgery were included in the study. MP-MRI
+data comprising of 7 total sequences: T1-weighted (T1w), volumetric
+T1-weighted postcontrast (T1 +C), T2-weighted (T2w), T2-fluid-
+attenuated inversion recovery (T2-FLAIR), diffusion weighted image
+(DWI) including b0 and b1000 images, and apparent diffusion coeffi-
+cient (ADC) map were exported to a secure server storage system (MIM
+Software Inc, Beachwood, Ohio). Patients who did not have all 7 scans,
+as well as those with significant motion artifact, were excluded from the
+study. A total of 306 patients met inclusion criteria for the present study,
+and 70 were excluded due to limited data.
+2|V O L U M E 0|N U M B E R 0|2 0 2 1 www.neurosurgery-online.comDownloaded from https://academic.oup.com/neurosurgery/advance-article/doi/10.1093/neuros/nyab307/6359920 by Thomas Jefferson University user on 28 September 2021
+
+
+--- Page 3 ---
+MACHINELEARNINGUSINGRADIOMICSINMENINGIOMAS
+ImagePreprocessingandSegmentation
+A schematic showing the process of image processing and machine
+learning analysis is shown in Figure 1. Patients’ MRI scans were
+anonymized, and all protected health information was stripped from
+DICOM files using automated software (DICOMAnon, Red Ion LLC,
+Birmingham, Alabama). Image preprocessing was performed using
+CaPTk v.1.8.1 ( https://www.med.upenn.edu/cbica/captk/ ), an open-
+source, multiplatform software.31,32Image preprocessing for each of
+the patients included coregistration of all MRI sequences upon its
+corresponding axial thin-cut (0.5 mm) T1 +C sequence, resam-
+pling of the images to 1 ×1×1m m3spatial resolution, and
+N4ITK bias correction. The intensity values for all image volumes
+were scaled in the range of [0, 255] after removing pixels with outlier
+values.
+Images were segmented using ITK-SNAP v3.8.0 ( www.itksnap.org )
+by a neurosurgeon blinded to patients’ clinical information and Ki-
+67 proliferation index. The enhancing tumor was segmented on the
+T1+C sequence, and the peritumoral edema was identified on
+the T2-FLAIR sequence, although the segmentation schemes were
+overlaid on all 7 coregistered sequences for subsequent radiomic
+analysis.
+RadiomicAnalysis
+For each patient, feature extraction was performed in CaPTk
+over the segmentation labels. Morphologic volume and shape features
+(n=29) were computed from enhancing tumor and peritumoral edema
+regions. Radiomic features (n =2520) pertaining to volume, shape,
+size, histogram, and texture parameters were extracted from MP-MRI
+scans,33,34and were normalized using z-scoring prior to machine learning
+analysis.
+A multivariate pattern classification algorithm was developed to
+stratify Ki-67 proliferative index of <5% and ≥5%.8The dataset
+(n=306) was split into discovery and independent replication cohorts
+(75% and 25% of the entire cohort, respectively). Model training
+and selection was carried out in the discovery cohort (n =230).
+The replication cohort (n =76) was kept “unseen” during the model
+training and was merely used as an independent set to provide an
+insight about the generalizability of our predictive model for prospective
+patients.
+We trained our model based on the extracted radiomic features
+in the discovery cohort by the least absolute shrinkage and selection
+operator (LASSO) feature selection method, wrapped with linear support
+vector machine (SVM) classification through a nested cross-validation
+(CV) approach, with 10-fold CV for the outer and inner loops.
+SVMs are well suited to provide robust dichotomization of datasets
+by providing optimal hyperplanes which, in turn, may be effectively
+applied to an external “unseen” dataset. Furthermore, SVMs are compu-
+tationally efficient. Other algorithms such as k-NN and random forest
+were considered but ultimately not selected given their penchant for
+overfitting of the high dimensionality training dataset that limits their
+generalizability. An internal 3-fold CV was set for the SVM model
+to search for the optimal value of the parameter for the soft margin
+cost function (C), through a Bayesian optimization approach. Among
+the 10 models trained in the outer folds, the model with the least
+overfitting and closest performance to the average performance of all
+10 models was chosen. The LASSO method is well suited to reduce
+the likelihood of overfitting by assigning a penalty to over-represented
+feature coefficients in the model, and given that colinearity was notTABLE 1. Baseline Demographic and Clinical Characteristics of the
+Included n =306 Patients Who Underwent Surgical Resection of
+WHOGradeIMeningioma
+Gender
+Male 99(32.4%)
+Female 207(67.6%)
+Meanage(range) 59±14(19-90)
+Lateralityoftumor
+Right 137(44.8%)
+Left 155(50.6%)
+Midline 14(4.6%)
+Skullbasemeningioma 71(23.2%)
+Clinoidal 7(2.3%)
+Olfactorygroove 7(2.3%)
+Petroclival 8(2.6%)
+Tuberculumsellae/planumsphenoidale 5(1.6%)
+Sphenoidwing 44(14.4%)
+Nonskullbasemeningioma 235(76.8%)
+Convexity 79(25.8%)
+Intraventricular 4(1.3%)
+Parafalcine 14(4.6%)
+Parasagittal 79(25.8%)
+Pineal 1(0.3%)
+Posteriorfossa 36(11.8%)
+Temporal/middlefossa 14(4.6%)
+Tentorium 8(2.6%)
+Ki-67mean(range) 4.84±4.03(0.3–33.6)
+Skullbasemeningioma 4.97 ±3.54(1–17)
+Nonskullbasemeningioma 4.80±4.17(0.3–33.6)
+Ki-67median(Q1,Q3) 3.7(2.3,6)
+Skullbasemeningioma 3.7(2.59,6.60)
+Nonskullbasemeningioma 3.7(2.18,5.85)
+Ki-67distribution
+<5% 214patients
+>5% 92patients
+felt to be an issue, ridge regression or elastic net was not pursued. This
+model was applied in the replication cohort to obtain the classification
+performance in independent patient data. The predictive modeling
+approach was implemented in MATLAB R2018b (Mathworks, Natick,
+Massachusetts).
+StatisticalAnalysis
+Frequencies and percentages are used for nominal variables, and means
+and ranges are used for continuous variables. Analysis was carried out
+using unpaired 2-tailed t-test, Chi-square, and Fisher’s exact tests, as
+appropriate. Statistical analysis was carried out with IBM SPSS v 24.0
+(IBM Corp, Armonk, New York) and Matlab 2018b.
+RESULTS
+Patient demographics and baseline clinical characteristics are
+summarized in Table 1. The mean patient age was 59 ±14 yr
+(range: 19-90), and 67.6% of the study cohort was female. A
+total of 71 patients presented with skull base meningioma, and
+NEURO SURGERY VOLUME0 | NUMBER0 | 2021 | 3Downloaded from https://academic.oup.com/neurosurgery/advance-article/doi/10.1093/neuros/nyab307/6359920 by Thomas Jefferson University user on 28 September 2021
+
+
+--- Page 4 ---
+KHANNAETAL
+FIGURE 2. Spatial atlases in the axial, sagittal, and coronal planes illustrating the distribution of 235 nonskull base (top
+panel) and 71 skull base (bottom panel) meningiomas used to train a machine learning model.
+the other 235 patients presented with nonskull base meningioma
+(Figure 2). The most common locations of tumors are convexity
+(25.8%), parasagittal (25.8%), and sphenoid wing (14.4%). The
+mean and median Ki-67 of tumor specimens were 4.84 ±4.03%
+(range: 0.3-33.6) and 3.7% (Q1:2.3%, Q3:6%), respectively.
+There were 214 patients with Ki-67 <5% and 92 patients with
+Ki-67 of ≥5%. The mean Ki-67 values of the discovery (n =230)
+and replication (n =76) cohort were 4.8 ±3.76 and 5.03 ±4.78,
+respectively ( P=.642). A total of 71 subjects (30.87%) and 25
+subjects (32.89%) had Ki-67 >5% in the discovery and repli-
+cation cohort, respectively.
+Morphologic volumetric analysis pertaining to tumor size and
+perilesional edema was performed using values obtained from
+feature extraction. There is wide overlap between both tumor and
+edema volumes between lesions with Ki-67 <5% and those ≥5%
+(Figure 3). Meningiomas with Ki-67 ≥5% were larger in volume
+compared to tumors with Ki-67 <5% (mean 38.65 ±19.19 and
+20.97 ±35.57 cm3, respectively; P<.001), which held true in
+subgroup analysis of both skull base and nonskull base tumors.
+Similarly, meningiomas with Ki-67 ≥5% had significantly
+larger peritumoral edema volumes compared to tumors with
+Ki-67 <5% (mean 22.11 ±40.12 and 40.16 ±42.34
+cm3, respectively; P=.002), and this difference was
+more pronounced in nonskull base compared to skull-base
+tumors.Following high-throughput radiomic feature extraction from
+MP-MRI, model training, including feature subset selection and
+hyperparameter tuning, was performed in the discovery cohort,
+resulting in a total of 60 radiomic features in the predictive model
+(Supplemental Table 1 ). With this model, an AUC of 0.84
+(95% CI: 0.78-0.90), with associated sensitivity and specificity
+of 84.1% and 73.3%, respectively, was achieved in the discovery
+cohort. The selected features in the trained predictive model were
+then calculated for the subjects of the replication cohort and
+the model was applied independently in this cohort. An AUC
+of 0.83 (95% CI: 0.73-0.94), similar to the training discovery
+set, with a sensitivity of 82.6% and specificity of 85.5%, was
+obtained for this independent testing (Figure 4). Furthermore,
+the model performed commendably when applied to all skull
+base and nonskull base tumors in our patient cohort, evidenced
+by comparable AUC values of 0.86 and 0.83, respectively
+(Table 2).
+All sequences of MRI contributed towards the final features
+list: DWI (b0 and b1000 images, and ADC map) produced the
+most features (27 total), followed by T1 +C (13). Furthermore,
+morphologic features such as increased peritumoral edema shape
+eccentricity and enhancing tumor extent were highly discrimi-
+native for tumors with Ki-67 ≥5% versus those with Ki-67 <5%
+(Table 3). Figure 5illustrates examples of 2 patients with sphenoid
+wing meningioma, one with a high (17%) and another with a low
+4|V O L U M E 0|N U M B E R 0|2 0 2 1 www.neurosurgery-online.comDownloaded from https://academic.oup.com/neurosurgery/advance-article/doi/10.1093/neuros/nyab307/6359920 by Thomas Jefferson University user on 28 September 2021
+
+
+--- Page 5 ---
+MACHINELEARNINGUSINGRADIOMICSINMENINGIOMAS
+FIGURE3. Distribution of tumor and perilesional edema volumes reveal a wide range of overlap between Ki-67 <5% and ≥5% in WHO grade I meningiomas.
+(2.8%) Ki-67, and how quantitative radiomic features can be used
+to discriminate between the two.
+DISCUSSION
+Although the vast majority of meningiomas are classified as
+WHO grade I tumors, there is wide heterogeneity in their clinical
+presentation, rate of growth, and risk of recurrence.35Machine
+learning using radiomic feature analysis derived from standard
+anatomic MR images may reveal prognostic insights to predict
+tumor behavior. In this study, we have trained a machine learning
+model that can be used to predict Ki-67 in grade I menin-
+giomas and help guide surgical timing and operative strategy.
+Patients who are known to harbor tumors with Ki-67 ≥5%
+should undergo more aggressive operative intervention with an
+earnest attempt at achieving a gross total resection with wide dural
+margins.
+This study identifies several imaging characteristics that
+highlight morphologic differences between tumors in our dataset.
+T umors with Ki-67 ≥5% were significantly larger than those
+with Ki-67 <5%, and this was true in both the skull baseand nonskull base cohorts. However, there was a wide overlap
+in tumor volume despite Ki-67 indices, and our model was
+able to effectively discern smaller tumors that harbored higher
+Ki-67 values. Similarly, the volume of peritumoral edema was
+greater in meningiomas with Ki-67 ≥5%, which corroborates
+a long-held belief that rapidly growing tumors—for which Ki-
+67 is a surrogate marker—exhibit greater degree of peritu-
+moral edema.36,37Morphologic features such as tumor extent
+and edema shape eccentricity were important predictive features
+that appeared in our model. Furthermore, radiomic features
+extracted from DWI and T1 +C sequences contributed the
+highest number of selected features.29,38Taken together, these
+morphologic and radiomic findings highlight the benefits of
+using multiparametric MRI sequences instead of solely T1 +C
+sequence to improve the performance of machine learning
+models.
+Previous studies that have applied machine learning techniques
+to meningiomas have focused on identifying tumors that are
+of higher grade,24,27such that surgery can be tailored to
+achieve maximal resection, given the propensity of grade II
+and II tumors to exhibit recurrence despite adjuvant radiation
+treatment.28These studies have incorporated both adjunctive
+NEURO SURGERY VOLUME0 | NUMBER0 | 2021 | 5Downloaded from https://academic.oup.com/neurosurgery/advance-article/doi/10.1093/neuros/nyab307/6359920 by Thomas Jefferson University user on 28 September 2021
+
+
+--- Page 6 ---
+KHANNAETAL
+FIGURE4. Receiver operating characteristic curves of a machine learning model trained using the entire dataset of n =306 patients who underwent resection of
+WHO grade I meningioma, dichotomized based on Ki-67 <5% and ≥5%.A,n=230 discovery cohort (AUC: 0.84, 95% CI 0.78-0.90) and B,n=76 validation
+cohort (AUC: 0.83, 95% CI 0.73-0.94). The model was applied to C, skull base (AUC: 0.86, 95% CI 0.79-0.98) and D, nonskull base tumors (AUC: 0.83, 95%
+CI 0.76-0.89), with similar efficacies achieved.
+TABLE 2. A Summary of Performances of the Predictive Model in Classifying WHO Grade I Meningiomas Based on Ki-67 <5% and ≥5% in
+Discovery(n =230)andReplication(n =76)Cohorts
+AUC[95%CI] Sensitivity(%) Specificity(%)
+Discoverycohort 0.84[0.78,0.90] 84.1 73.3
+Replicationcohort 0.83[0.73,0.94] 82.6 85.5
+Skullbasetumors 0.86[0.79,0.98] 80.9 82.0
+Nonskullbasetumors 0.83[0.76,0.89] 80.3 77.4
+Thetrainedmodelperformedsimilarlywhenappliedtoskullbase(n =71)andnonskullbase(n =235)tumors.AUC =areaunderthecurve;CI =confidenceinterval.
+6|V O L U M E 0|N U M B E R 0|2 0 2 1 www.neurosurgery-online.comDownloaded from https://academic.oup.com/neurosurgery/advance-article/doi/10.1093/neuros/nyab307/6359920 by Thomas Jefferson University user on 28 September 2021
+
+
+--- Page 7 ---
+MACHINELEARNINGUSINGRADIOMICSINMENINGIOMAS
+TABLE 3. MP-MRIWasUsedforRadiomicModelTraining,YieldingaTotalofn =60FeaturesintheFinalPredictiveModel
+MRIsequence #ofselectedfeatures Selectedfeaturecategories
+Morphologicalfeatures 4 Edemashapeeccentricity,tumorshape(extent),tumorshape(eccentricity)
+T1-weighted 4 Histogram(n =1),tumorintensity(n =1),GLRLM(n =1),GLSZM(n =1)
+T1-contrastenhanced 13 CoLlAGe(n =3),Gabor(n =4),GLSZM(n =1),histogram(n =3),intensity(n =1),LBP(n =1)
+T2-weighted 3 Gabor(n =2),histogram(n =1)
+T2-FLAIR 9 CoLlAGe(n =2),Gabor(n =2),GLCM(n =1),GLSZM(n =1),histogram(n =2),LBP(n =1)
+DWI(b0) 8 CoLlAGe(n =2),Gabor(n =2),GLSZM(n =1),histogram(n =3)
+DWI(b1000) 7 CoLlAGe(n =2),Gabor(n =1),GLCM(n =1),histogram(n =2),intensity(n =1)
+ADCmap 12 Collage(n =4),Gabor(n =2),GLSZM(n =1),histogram(n =5)
+FIGURE5. Illustrative cases showcasing the radiomic phenotypes of 2 patients with sphenoid wing meningioma: patient 1 with Ki-67 of 17% and patient
+2 with Ki-67 of 2.8%. A,T 1+C image shows similar hyperintensity albeit ADC maps with lower ADC values in the tumor with high Ki-67 compared
+to the tumor with lower Ki-67. B, Normalized histograms of T1-subtraction (T1 +C minus T1 intensity) and ADC map between patients, showing an
+association of higher T1-subtraction intensity (ie, increased permeability), and lower ADC values (ie, restricted diffusion or increased cellula r density) within
+the tumorous region of with higher Ki-67.
+clinical and qualitative radiographic variables that are input into
+the machine learning model, which require human interpretation
+and manual entry into the algorithm. Our study relies solely
+on radiomic features obtained from standardized preoperative
+MRI, which presents the possibility that this process may be
+fully automated and readily incorporated into clinical practice.39
+In this regard, our algorithm would serve to identify grade Itumors whose behavior is more akin to grade II tumors, and
+therefore would influence frequency of surveillance and surgical
+strategy.
+The ability to rule out high-grade meningiomas does not, in
+and of itself, eliminate all tumors that exhibit more aggressive
+behavior. In fact, there is a sizeable subset of grade I menin-
+giomas that have a faster rate of growth and an increased risk
+NEURO SURGERY VOLUME0 | NUMBER0 | 2021 | 7Downloaded from https://academic.oup.com/neurosurgery/advance-article/doi/10.1093/neuros/nyab307/6359920 by Thomas Jefferson University user on 28 September 2021
+
+
+--- Page 8 ---
+KHANNAETAL
+of recurrence, which is not entirely accounted for by the current
+WHO classification. Recently published studies have identified
+elevated Ki-67 as an important risk factor for recurrence in grade
+I meningioma, even in cases with reported gross total resection.4,8
+The Simpson grade of resection as well as the volume of residual
+tumor has been shown to influence risk of recurrence,40which
+underscores the need to achieve a supramarginal resection
+whenever possible in patients with elevated Ki-67. Furthermore,
+the ability to predict the Ki-67 value could be invaluable in
+guiding the time interval for imaging surveillance and deciding
+when to pursue surgical intervention. For example, given their
+increased risk of expected tumor growth, patients identified
+who harbor tumors with elevated Ki-67 may be counseled to
+undergo surgical resection earlier to minimize surgical morbidity
+and maximize extent of resection (eg, parasagittal menin-
+gioma that has not yet grown to involve the superior sagittal
+sinus). Given the lack of available knowledge that accounts for
+their disparate clinical behavior, the incorporation of machine
+learning techniques would provide an important adjunct in the
+management of WHO grade I meningiomas.
+Limitations
+Our study is limited by its retrospective design, and an
+inherent selection bias. The Ki-67 values were not subject to
+re-review for the purposes of this study. Although there can
+be interobserver variability between reported Ki-67 values, all
+our specimens were analyzed via semi-automated image analysis
+software, which has been shown to improve the reproducibility
+of outcomes.41,42Furthermore, the Ki-67 in grade I menin-
+giomas has been shown to have less intratumoral heterogeneity
+compared to higher grade tumors.29Thorough validation of this
+machine learning model will ultimately require application to
+an external, multi-institutional dataset with a larger cohort of
+patients.
+CONCLUSION
+Machine learning using radiomic feature analysis is uniquely
+suited to identify phenotypic imaging signatures that can be used
+to offer enhanced tumor diagnostics. In this study, we have trained
+a machine learning model that is effective in stratifying WHO
+grade I meningiomas based on Ki-67 values. Future studies will
+investigate the applicability of this Ki-67 predictive model of
+clinical outcomes as it pertains to surgical morbidity, extent of
+resection, risk of tumor recurrence, and overall survival, including
+in grade II and III meningiomas.
+Funding
+This work is supported by the NIH/NCI/ITCR grant U24-CA189523.Disclosures
+The authors have no personal, financial, or institutional interest in any of the
+drugs, materials, or devices described in this article.
+REFERENCES
+1. Ostrom QT, Patil N, Cioffi G, Waite K, Kruchko C, Barnholtz-Sloan JS. CBTRUS
+statistical report: primary brain and other central nervous system tumors diagnosed
+in the United States in 2013–2017. Neuro Oncol . 2020;22(12 suppl 2):iv1-
+iv96.
+2. van Alkemade H, de Leau M, Dieleman EM, et al. Impaired survival and long-term
+neurological problems in benign meningioma. Neuro Oncol . 2012;14(5):658-666.
+3. Marciscano AE, Stemmer-Rachamimov AO, Niemierko A, et al. Benign menin-
+giomas (WHO grade I) with atypical histological features: correlation of
+histopathological features with clinical outcomes. JN e u r o s u r g . 2016;124(1):106-
+114.
+4. Haddad AF, Young JS, Kanungo I, et al. WHO grade I meningioma recurrence:
+identifying high risk patients using histopathological features and the MIB-1 index.
+Front Oncol . 2020;10:1522.
+5. Przybylowski CJ, Hendricks BK, Frisoli FA, et al. Prognostic value of the Simpson
+grading scale in modern meningioma surgery: Barrow Neurological Institute
+experience [ published online ahead of print: October 23, 2020]. JN e u r o s u r g .d o i :
+10.3171/2020.6.JNS20374.
+6. Winther TL, Torp SH. Significance of the extent of resection in modern neuro-
+surgical practice of World Health Organization grade I meningiomas. World
+Neurosurg . 2017;99:104-110.
+7. Karsy M, Burnett B, Di Ieva A, Cusimano MD, Jensen RL. Microvascularization
+of grade I meningiomas: effect on tumor volume, blood loss, and patient outcome.
+JN e u r o s u r g . 2018;128(3):657-666.
+8. Nowak-Choi K, Palmer JD, Casey J, et al. Resected WHO grade I meningioma
+and predictors of local control. J Neurooncol . 2021;152(1):145-151.
+9. Jansen RL, Hupperets PS, Arends JW, et al. MIB-1 labelling index is
+an independent prognostic marker in primary breast cancer. Br J Cancer .
+1998;78(4):460-465.
+10. Martin B, Paesmans M, Mascaux C, et al. Ki-67 expression and patients survival
+in lung cancer: systematic review of the literature with meta-analysis. Br J Cancer .
+2004;91(12):2018-2025.
+11. Berlin A, Castro-Mesta JF, Rodriguez-Romo L, et al. Prognostic role of Ki-67 score
+in localized prostate cancer: a systematic review and meta-analysis. Urol Oncol .
+2017;35(8):499-506.
+12. Kim MS, Kim KH, Lee EH, et al. Results of immunohistochemical staining for
+cell cycle regulators predict the recurrence of atypical meningiomas. JN e u r o s u r g .
+2014;121(5):1189-1200.
+13. Oya S, Kawai K, Nakatomi H, Saito N. Significance of Simpson grading system in
+modern meningioma surgery: integration of the grade with MIB-1 labeling index
+as a key to predict the recurrence of WHO grade I meningiomas. JN e u r o s u r g .
+2012;117(1):121-128.
+14. Liu N, Song SY, Jiang JB, Wang TJ, Yan CX. The prognostic role of Ki-
+67/MIB-1 in meningioma: a systematic review with meta-analysis. Medicine .
+2020;99(9):e18644.
+15. Mirian C, Skyrman S, Bartek J, Jr, et al. The Ki-67 proliferation index as a marker
+of time to recurrence in intracranial meningioma [ published online ahead of print:
+July 2, 2020]. Neurosurgery . doi: 10.1093/neuros/nyaa226.
+16. Roser F, Samii M, Ostertag H, Bellinzona M. The Ki-67 proliferation antigen
+in meningiomas. Experience in 600 cases. Acta Neurochir . 2004;146(1):37-44;
+discussion 44.
+17. Babu S, Uppin SG, Uppin MS, et al. Meningiomas: correlation of Ki67 with histo-
+logical grade. Neurol India . 2011;59(2):204-207.
+18. Davatzikos C, Sotiras A, Fan Y, et al. Precision diagnostics based on machine
+learning-derived imaging signatures. Magn Reson Imaging . 2019;64:49-61.
+19. Aneja S, Chang E, Omuro A. Applications of artificial intelligence in neuro-
+oncology. Curr Opin Neurol . 2019;32(6):850-856.
+20. Lambin P, Leijenaar RTH, Deist TM, et al. Radiomics: the bridge between
+medical imaging and personalized medicine. Nat Rev Clin Oncol . 2017;14(12):
+749-762.
+21. Akbari H, Bakas S, Pisapia JM, et al. In vivo evaluation of EGFRvIII mutation in
+primary glioblastoma patients via complex multiparametric MRI signature. Neuro
+Oncol . 2018;20(8):1068-1079.
+8|V O L U M E 0|N U M B E R 0|2 0 2 1 www.neurosurgery-online.comDownloaded from https://academic.oup.com/neurosurgery/advance-article/doi/10.1093/neuros/nyab307/6359920 by Thomas Jefferson University user on 28 September 2021
+
+
+--- Page 9 ---
+MACHINELEARNINGUSINGRADIOMICSINMENINGIOMAS
+22. Fathi Kazerooni A, Bakas S, Saligheh Rad H, Davatzikos C. Imaging signatures
+of glioblastoma molecular characteristics: a radiogenomics review. JM a g nR e s o n
+Imaging . 2020;52(1):54-69.
+23. Macyszyn L, Akbari H, Pisapia JM, et al. Imaging patterns predict patient survival
+and molecular subtype in glioblastoma via machine learning techniques. Neuro
+Oncol . 2016;18(3):417-425.
+24. Zhu Y, Man C, Gong L, et al. A deep learning radiomics model for preoperative
+grading in meningioma. Eur J Radiol . 2019;116:128-134.
+25. Niu L, Zhou X, Duan C, et al. Differentiation researches on the meningioma
+subtypes by radiomics from contrast-enhanced magnetic resonance imaging: a
+preliminary study. World Neurosurg . 2019;126:e646-e652.
+26. Hale AT, Stonko DP, Wang L, Strother MK, Chambless LB. Machine learning
+analyses can differentiate meningioma grade by features on magnetic resonance
+imaging. Neurosurg Focus . 2018;45(5):E4.
+27. Coroller TP, Bi WL, Huynh E, et al. Radiographic prediction of meningioma grade
+by semantic and radiomic features. PLoS One . 2017;12(11):e0187908.
+28. Morin O, Chen WC, Nassiri F, et al. Integrated models incorporating radiologic
+and radiomic features predict meningioma grade, local failure, and overall survival.
+Neurooncol Adv . 2019;1(1):vdz011.
+29. Magill ST, Vasudevan HN, Seo K, et al. Multiplatform genomic profiling and
+magnetic resonance imaging identify mechanisms underlying intratumor hetero-
+geneity in meningioma. Nat Commun . 2020;11(1):4803.
+30. Louis DN, Perry A, Reifenberger G, et al. The 2016 World Health Organization
+classification of tumors of the central nervous system: a summary. Acta Neuropathol .
+2016;131(6):803-820.
+31. Davatzikos C, Rathore S, Bakas S, et al. Cancer imaging phenomics toolkit: quanti-
+tative imaging analytics for precision diagnostics and predictive modeling of clinical
+outcome. JM e dI m a g i n g . 2018;5(1):011018.
+32. Pati S, Singh A, Rathore S, et al. The cancer imaging phenomics toolkit (CaPTk):
+technical overview. Brainlesion . 2020;11993:380-394.
+33. Prasanna P, Tiwari P, Madabhushi A. Co-occurrence of Local Anisotropic Gradient
+Orientations (CoLlAGe): a new radiomics descriptor. Sci Rep . 2016;6(1):37241.
+34. Fathi Kazerooni A, Nabil M, Haghighat Khah H, et al. ADC-derived
+spatial features can accurately classify adnexal lesions. J Magn Reson Imaging .
+2018;47(4):1061-1071.35. Maillo A, Orfao A, Espinosa AB, et al. Early recurrences in histologically
+benign/grade I meningiomas are associated with large tumors and coexistence
+of monosomy 14 and del(1p36) in the ancestral tumor cell clone. Neuro Oncol .
+2007;9(4):438-446.
+36. Ide M, Jimbo M, Yamamoto M, Umebara Y, Hagiwara S, Kubo O. MIB-1 staining
+index and peritumoral brain edema of meningiomas. Cancer . 1996;78(1):133-143.
+37. Kim BW, Kim MS, Kim SW, Chang CH, Kim OL. Peritumoral brain edema in
+meningiomas : correlation of radiologic and pathologic features. J Korean Neurosurg
+Soc. 2011;49(1):26-30.
+38. Yin B, Liu L, Zhang BY, Li YX, Li Y, Geng DY. Correlating apparent
+diffusion coefficients with histopathologic findings on meningiomas. Eur J Radiol .
+2012;81(12):4050-4056.
+39. Muhlestein WE, Monsour MA, Friedman GN, et al. Predicting discharge dispo-
+sition following meningioma resection using a multi-institutional natural language
+processing model. Neurosurgery . 2021;88(4):838-845.
+40. Spille DC, Hess K, Bormann E, et al. Risk of tumor recurrence in intracranial
+meningiomas: comparative analyses of the predictive value of the postoperative
+tumor volume and the Simpson classification [published online ahead of print:
+July 17, 2020]. JN e u r o s u r g . doi: 10.3171/2020.4.JNS20412.
+41. Acs B, Pelekanou V, Bai Y, et al. Ki67 reproducibility using digital image analysis:
+an inter-platform and interoperator study. Lab Invest . 2019;99(1):107-117.
+42. Rezanko T, Akkalp AK, T unakan M, Sari AA. MIB-1 counting methods in
+meningiomas and agreement among pathologists. Anal Quant Cytol Histol .
+2008;30(1):47-52.
+Supplemental digital content is available for this article at www.
+neurosurgery-online.com .
+Supplementary Digital Content. Table. Supplementary Table 1: The list of
+selected features (n =60) in the final model. GLCM =gray-level co-occurrence
+matrix; GLRLM =gray-level run-length matrix; GLSZM =gray level size zone;
+NGTDM =neighborhood gray tone difference matrix; LBP =local binary
+patterns.
+NEURO SURGERY VOLUME0 | NUMBER0 | 2021 | 9Downloaded from https://academic.oup.com/neurosurgery/advance-article/doi/10.1093/neuros/nyab307/6359920 by Thomas Jefferson University user on 28 September 2021
+

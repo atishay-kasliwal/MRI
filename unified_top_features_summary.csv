@@ -1,0 +1,26 @@
+Scan_Type,Rank,Feature_Name,Full_Feature_Name,Correlation,Sample_Size,Color,Scan_Rank,Y_Label
+DWI,5,original_shape_Maximum2DDiameterColumn,DWI_original_shape_Maximum2DDiameterColumn,0.2650444285832976,128,#FFEAA7,5,DWI - original_shape_Maximum2DDiameterColumn
+DWI,4,original_glrlm_RunVariance,DWI_original_glrlm_RunVariance,0.26529031709173195,128,#FFEAA7,5,DWI - original_glrlm_RunVariance
+DWI,3,original_shape_Maximum3DDiameter,DWI_original_shape_Maximum3DDiameter,0.2673194842027226,128,#FFEAA7,5,DWI - original_shape_Maximum3DDiameter
+T2,5,original_gldm_SmallDependenceLowGrayLevelEmphasis,T2_original_gldm_SmallDependenceLowGrayLevelEmphasis,0.2697837475713402,128,#96CEB4,4,T2 - original_gldm_SmallDependenceLowGrayLevelEmphasis
+T2,4,original_glcm_Idmn,T2_original_glcm_Idmn,0.27383509536852835,128,#96CEB4,4,T2 - original_glcm_Idmn
+DWI,2,original_shape_Maximum2DDiameterSlice,DWI_original_shape_Maximum2DDiameterSlice,0.2748903086428355,128,#FFEAA7,5,DWI - original_shape_Maximum2DDiameterSlice
+T2,3,original_shape_Maximum2DDiameterSlice,T2_original_shape_Maximum2DDiameterSlice,0.2748903086428355,128,#96CEB4,4,T2 - original_shape_Maximum2DDiameterSlice
+T1,5,original_shape_Maximum2DDiameterSlice,T1_original_shape_Maximum2DDiameterSlice,0.2748903086428355,128,#4ECDC4,2,T1 - original_shape_Maximum2DDiameterSlice
+ADC,5,original_shape_Maximum2DDiameterSlice,ADC_original_shape_Maximum2DDiameterSlice,0.2748903086428355,128,#45B7D1,3,ADC - original_shape_Maximum2DDiameterSlice
+ADC,4,original_firstorder_Minimum,ADC_original_firstorder_Minimum,0.2772815623666932,128,#45B7D1,3,ADC - original_firstorder_Minimum
+T2,2,original_glcm_Idn,T2_original_glcm_Idn,0.2800236643294647,128,#96CEB4,4,T2 - original_glcm_Idn
+T1,4,original_glcm_Idmn,T1_original_glcm_Idmn,0.29608836391797855,128,#4ECDC4,2,T1 - original_glcm_Idmn
+T1,3,original_firstorder_Minimum,T1_original_firstorder_Minimum,0.2975110557071683,128,#4ECDC4,2,T1 - original_firstorder_Minimum
+FLAIR,5,original_gldm_LargeDependenceEmphasis,FLAIR_original_gldm_LargeDependenceEmphasis,0.30350148849756364,128,#FF6B6B,1,FLAIR - original_gldm_LargeDependenceEmphasis
+ADC,3,original_gldm_DependenceEntropy,ADC_original_gldm_DependenceEntropy,0.3141483958094181,128,#45B7D1,3,ADC - original_gldm_DependenceEntropy
+FLAIR,4,original_gldm_DependenceVariance,FLAIR_original_gldm_DependenceVariance,0.3143018894029958,128,#FF6B6B,1,FLAIR - original_gldm_DependenceVariance
+T2,1,original_shape_Maximum2DDiameterRow,T2_original_shape_Maximum2DDiameterRow,0.31517922305438906,128,#96CEB4,4,T2 - original_shape_Maximum2DDiameterRow
+T1,2,original_shape_Maximum2DDiameterRow,T1_original_shape_Maximum2DDiameterRow,0.31517922305438906,128,#4ECDC4,2,T1 - original_shape_Maximum2DDiameterRow
+DWI,1,original_shape_Maximum2DDiameterRow,DWI_original_shape_Maximum2DDiameterRow,0.31517922305438906,128,#FFEAA7,5,DWI - original_shape_Maximum2DDiameterRow
+FLAIR,3,original_shape_Maximum2DDiameterRow,FLAIR_original_shape_Maximum2DDiameterRow,0.31517922305438906,128,#FF6B6B,1,FLAIR - original_shape_Maximum2DDiameterRow
+ADC,2,original_shape_Maximum2DDiameterRow,ADC_original_shape_Maximum2DDiameterRow,0.31517922305438906,128,#45B7D1,3,ADC - original_shape_Maximum2DDiameterRow
+FLAIR,2,original_glcm_Idmn,FLAIR_original_glcm_Idmn,0.33359380796626986,128,#FF6B6B,1,FLAIR - original_glcm_Idmn
+ADC,1,original_glszm_ZoneEntropy,ADC_original_glszm_ZoneEntropy,0.34463295644818887,128,#45B7D1,3,ADC - original_glszm_ZoneEntropy
+T1,1,original_glcm_Idn,T1_original_glcm_Idn,0.3484682550505065,128,#4ECDC4,2,T1 - original_glcm_Idn
+FLAIR,1,original_glcm_Idn,FLAIR_original_glcm_Idn,0.36940151435246643,128,#FF6B6B,1,FLAIR - original_glcm_Idn

@@ -1,0 +1,4 @@
+Set,Good_Outcome,Poor_Outcome,Total,Percentage
+Train,60,42,102,79.6875
+Test,15,11,26,20.3125
+Total,75,53,128,100.0
